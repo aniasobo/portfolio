@@ -12,7 +12,7 @@
 - [ ] Airport - Weekend - Individual
 
 ## Workshops
-- [ ] Intro to debugging
+- [x] Intro to debugging
 
 -------------
 # Raw notes below
@@ -34,6 +34,8 @@
 3. Refer to the spec/user story/user need to identify what code is expected to do 
 4. Print everything to tighten the loop/look into the steps of the program (p/print/puts); print around the line causing the problem; print a marker string around/before the problem line (for name errors); print numbered strings for step-by-step printing of problem lines
 
-
+#### To do:
+- [ ] debug the diary/appointment app
+- [ ] learn about scope
 
 

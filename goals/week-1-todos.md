@@ -20,5 +20,3 @@
 - [ ] pairing feedback
 - [ ] daily review of focus on week's goals & progress
 - [ ] check on upcoming topics & challenges
-- [ ] split notes into weekly progress tracking note + weekly course notes (the latter can be messy)
-- [ ] learn about scope
