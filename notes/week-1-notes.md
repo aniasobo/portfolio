@@ -16,17 +16,24 @@
 
 -------------
 # Raw notes below
-MD formatting:
-**bold**
 
-_italic_
+## Debugging workshop
 
-table | column | anothercol
------- | ------ | ---------
-text in col 1 | text in col 2 | text in col 3
+**Types of bug**
 
-[link text](url)
+- syntax error
+- gem not installed
+- method/no method error/name error (trying to call an undefined/uninitialised object)
+- incorrect logic when using/testing the program
+- name errors
 
-```
-code snippet
-```
+**Debug process**
+
+1. Reproduce the bug
+2. Read the error message(s)
+3. Refer to the spec/user story/user need to identify what code is expected to do 
+4. Print everything to tighten the loop/look into the steps of the program (p/print/puts); print around the line causing the problem; print a marker string around/before the problem line (for name errors); print numbered strings for step-by-step printing of problem lines
+
+
+
+
