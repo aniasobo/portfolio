@@ -1,4 +1,4 @@
-# Week one 28-31.05.2019
+# Week one 28.05-2.06.2019
 
 ## Goals
 - [x] Test drive a simple program using objects and methods.
