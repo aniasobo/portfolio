@@ -4,16 +4,20 @@
 - [x] Test drive a simple program using objects and methods.
 - [x] Pair using the driver-navigator style.
 - [x] Follow an effective debugging process.
-- [ ] Describe some basic principles like encapsulation, SRP.
+- [x] Describe some basic principles like encapsulation, SRP.
 
 ## Challenges
 
-- [ ] Boris Bikes - Afternoons - Pair coding
+- [x] Boris Bikes - Afternoons - Pair coding
 - [ ] Airport - Weekend - Individual
 
 ## Workshops
 - [x] Intro to debugging
 - [x] TDD
+
+### Practice
+- [ ] Encapsulation and SRP practical
+- [ ] Debugging practical
 
 -------------
 # Raw notes below
@@ -37,15 +41,15 @@
 
 #### To do:
 - [ ] debug the diary/appointment app
-- [ ] learn about scope
+- [x] learn about scope
 
 ## TDD workshop
 
 ### Learning objectives
 
-- [ ] Explain why we do TDD
-- [ ] Describe/diagram TDD as a set of steps
-- [ ] Apply TDD following the diagram
+- [x] Explain why we do TDD
+- [x] Describe/diagram TDD as a set of steps
+- [x] Apply TDD following the diagram
 
 **Notes**
 
@@ -60,6 +64,7 @@
 - write test - fail it. if it passes then it's useless (Red, Green, Refactor = write a failing test, make it pass, improve the code - both test and actual code - without changing behaviour)
 - Gemfile - add gem to improve Rspec error editing
 - write code & tests one at a time to avoid overengineering the program too early
+- test should be checking behaviour - if behaviour tests pass, the test that checks the state (for ex., whether or not an object responds to the method) becomes obsolete and can be deleted
 
 
 **Refactoring**
@@ -87,6 +92,12 @@ end
 ```
 
 Action - calling methods to test behaviour
+
 Assert - the expect statement
 	
+### To do:
+
+- [x] find out how to test randomness in Rspec 
+
+
 
