@@ -9,7 +9,7 @@
 ## Challenges
 
 - [x] Boris Bikes - Afternoons - Pair coding
-- [ ] Airport - Weekend - Individual
+- [x] Airport - Weekend - Individual
 
 ## Workshops
 - [x] Intro to debugging
