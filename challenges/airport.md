@@ -65,7 +65,52 @@ as appropriate
 ---
  
 ### To do: 
+
 - tests are not DRY and should be refactored
 - suspected edge cases that will fail program: plane already grounded can land, plane already in air can take off
 - suspected incorrect test syntax in mocking methods
 - feature testing to add
+
+## Notes from comparison with model solution:
+
+- [link to model solution](https://github.com/makersacademy/airport_challenge/pull/1238/files)
+- method for parking planes should update the plane status first, then park it 
+- methods for parking and releasing planes should handle errors instead of returning a string when failed
+
+```
+  def land(plane)
+	    raise 'Airport full' if full?
+	    raise 'Bad weather' if stormy?
+	    plane.land
+	
+	    @planes << plane
+  end
+```
+
+- simpler way to write the weather class (returns true if over 4, ie stormy):
+
+```
+class Weather
+	  def stormy?
+	    Kernel.rand(0..6) > 4
+	  end
+end
+```
+
+- it was a good decision to make planes in flight by default
+- good practice to keep the user stories in the spec file as comments directly preceding the tests that cover them
+- setting up an it block correctly with a mocked weather:
+
+```
+		weather = Weather.new
+    allow(weather).to receive(:stormy?).and_return(false)
+```
+
+- top describe block should start like:
+
+```
+RSpec.describe Plane do
+end
+```
+
+- 
