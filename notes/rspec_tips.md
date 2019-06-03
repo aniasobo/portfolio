@@ -31,3 +31,5 @@ ClassName::CONSTANT_NAME.times do
 #block
 end
 ```
+
+- the two main matchers to use: .to eq & {}.to raise_error
