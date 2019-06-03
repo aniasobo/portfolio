@@ -21,9 +21,12 @@ Course notes, record of progress, course goals and how I meet them.
 
 ## Projects
 
-- [Boris Bikes](https://github.com/aniasobo/Boris-Bikes) - [progress note](https://github.com/aniasobo/portfolio/blob/master/challenges/boris-bikes.md) - [feedback from pairing session](https://github.com/aniasobo/portfolio/blob/master/feedback/Feedback-from-Rachel.pdf)
-- [Airport](https://github.com/aniasobo/airport_challenge) - completed & reviewed, individual work - [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/airport.md)
-- [Oystercard]() - [progress note]() - pairing
+Project repo | Notes | Pairing feedback
+--- | --- | ---
+[Boris Bikes](https://github.com/aniasobo/Boris-Bikes) |  [progress note](https://github.com/aniasobo/portfolio/blob/master/challenges/boris-bikes.md) | [feedback from Rachel](https://github.com/aniasobo/portfolio/blob/master/feedback/Feedback-from-Rachel.pdf)
+[Airport](https://github.com/aniasobo/airport_challenge) |  [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/airport.md) | individual work  
+[Oystercard]() | [progress note]() | pairing feedback
+
 
 ## Processes & methodologies
 
