@@ -43,3 +43,8 @@
 ## Projects:
 
 - [ ] Gilded Rose Design Project 
+
+### Personal:
+- [ ] ask for feedback
+- [ ] learn how to use feature_spec.rb to automate feature tests (more info in Solution to step 12 of Boris Bikes challenge)
+- [ ] running tests in isolation

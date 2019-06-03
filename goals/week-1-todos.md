@@ -25,6 +25,10 @@
 - [x] learn the difference between 'require' and 'require_relative' and why the latter works in irb
 - [x] look into Bloom's taxonomy
 - [x] study types of evidence
-- [ ] learn how to use feature_spec.rb to automate feature tests (more info in Solution to step 12 of Boris Bikes challenge)
-- [ ] add evidence & links to challenge repos to notes in the goals directory 
+- [x] add evidence & links to challenge repos to notes in the goals directory 
 
+# Lifetime total hours of coding:
+
+```
+390
+```
