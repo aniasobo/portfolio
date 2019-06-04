@@ -45,3 +45,10 @@
 - [README how to](https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3)
 - [README pill](https://github.com/makersacademy/course/blob/master/pills/readmes.md)
 - [README example](https://github.com/matiassingers/awesome-readme)
+
+## Practice:
+
+Date | Project | progress
+--- | --- | ---
+Mon 3.06 | Oyster Card with Aleks | 50% done
+Tue 4.06 | TDD practice - birthdays | in progress

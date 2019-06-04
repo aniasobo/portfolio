@@ -71,19 +71,22 @@ as appropriate
 - suspected incorrect test syntax in mocking methods
 - feature testing to add
 
+---
+
 ## Notes from comparison with model solution:
 
-- [link to model solution](https://github.com/makersacademy/airport_challenge/pull/1238/files)
+[Link to model solution](https://github.com/makersacademy/airport_challenge/pull/1238/files)  
+
 - method for parking planes should update the plane status first, then park it 
 - methods for parking and releasing planes should handle errors instead of returning a string when failed
 
 ```
   def land(plane)
-	    raise 'Airport full' if full?
-	    raise 'Bad weather' if stormy?
-	    plane.land
+		raise 'Airport full' if full?
+		raise 'Bad weather' if stormy?
+		plane.land
 	
-	    @planes << plane
+		@planes << plane
   end
 ```
 
@@ -91,9 +94,9 @@ as appropriate
 
 ```
 class Weather
-	  def stormy?
-	    Kernel.rand(0..6) > 4
-	  end
+  def stormy?
+		Kernel.rand(0..6) > 4
+  end
 end
 ```
 
@@ -102,8 +105,8 @@ end
 - setting up an it block correctly with a mocked weather:
 
 ```
-		weather = Weather.new
-    allow(weather).to receive(:stormy?).and_return(false)
+	weather = Weather.new
+	allow(weather).to receive(:stormy?).and_return(false)
 ```
 
 - top describe block should start like:
