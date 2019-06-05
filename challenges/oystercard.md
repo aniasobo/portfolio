@@ -1,28 +1,30 @@
 # Oyster Card challenge - Week 2
 ---
+_pair coding: Anna & Aleks_  
+
 ## Topics to cover:
 
 - [ ] I write code that is easy to change  
-- [ ] I can test-drive my code  
-- [ ] I can build with objects  
-- [ ] Use all of week 1's skills 
+- [x] I can test-drive my code  
+- [x] I can build with objects  
+- [x] Use all of week 1's skills 
 - [ ] Break one class into two classes that work together, while maintaining test coverage  
 - [ ] Unit test classes in isolation using mocking  
 
 ### Set up the project:
 
-- [ ] Create a Gemfile
-- [ ] Create RSpec conventional files
-- [ ] Review debugging basics
+- [x] Create a Gemfile
+- [x] Create RSpec conventional files
+- [x] Review debugging basics
 
 ### Create a basic Oyster card:
-- [ ] Add the balance  
-- [ ] Enable top up functionality  
-- [ ] Enforce maximum balance  
-- [ ] Deduct the money  
+- [x] Add the balance  
+- [x] Enable top up functionality  
+- [x] Enforce maximum balance  
+- [x] Deduct the money  
 
 ### Add touch in/out functionality:
-- [ ] Add touch in/out support  
+- [x] Add touch in/out support  
 - [ ] Checking mininum balance on touch in  
 - [ ] Charging for the journey  
 
@@ -94,4 +96,16 @@ I need to have the correct fare calculated
 
 ## Things learned:
 
+- creating Gemfile with:
+
+```
+bundle init
+```
+
+- we started off with manually adding gem files - then read up on doing it via bundler
+- updating local versions of ruby and gems with rvm & bundler
+- Rspec config file - not generated automatically by rspec --init; purpose: ??
+- reading & interpreting the rspec stack trace
+- attribute readers and instance variables, and initialising new objects in a given state - and writing unit tests to verify it
+- using constants in Rspec: accessing by ClassName::CONSTANT_NAME (can be used in string interpolation)
 

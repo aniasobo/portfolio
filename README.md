@@ -25,7 +25,8 @@ Project repo | Notes | Pairing feedback
 --- | --- | ---
 [Boris Bikes](https://github.com/aniasobo/Boris-Bikes) |  [progress note](https://github.com/aniasobo/portfolio/blob/master/challenges/boris-bikes.md) | [feedback from Rachel](https://github.com/aniasobo/portfolio/blob/master/feedback/Feedback-from-Rachel.pdf)
 [Airport](https://github.com/aniasobo/airport_challenge) |  [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/airport.md) | individual work  
-[Oystercard]() | [progress note]() | pairing feedback
+[Oyster Card](https://github.com/aniasobo/oystercard1) | [progress note](https://github.com/aniasobo/portfolio/blob/master/challenges/oystercard.md) | [pairing feedback from Aleks](https://github.com/aniasobo/portfolio/blob/master/feedback/Feedback%20from%20Aleks%20-%20June%204.pdf)
+[Birthdays Calendar](https://github.com/aniasobo/birthdaycal) | [progress note](https://github.com/aniasobo/portfolio/blob/master/challenges/birthdays.md) | individual work
 
 
 ## Processes & methodologies
