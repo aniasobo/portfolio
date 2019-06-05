@@ -39,7 +39,7 @@
 - [ ] Testing OO Relationships
 - [ ] Learning by building RSpec
 - [ ] Refactoring with OO
-- [x] TDD Practice (from Week 1)
+- [x] TDD Practice (from Week 1) - Birthdays app
 
 ## Projects:
 

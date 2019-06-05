@@ -33,3 +33,4 @@ end
 ```
 
 - the two main matchers to use: .to eq & {}.to raise_error
+- doubles are empty containers so they must be allowed to receive a mock message from a mock method in order to be helpful -- be careful to not make your mock tests test themselves (i.e. sending mock messages to a double and then having that outcome be the thing under test)
