@@ -1,6 +1,6 @@
 # Birthday Calendar app
 
-Birthday Calendar is a program that you can load in IRB that allows you to:  
+[Birthday Calendar](https://github.com/aniasobo/birthdaycal) is a program that you can load in IRB that allows you to:  
 
 - Store birthdays so you can keep track of them
 - See them all at once with names and birthdays each on a line in a tidy format
@@ -8,11 +8,17 @@ Birthday Calendar is a program that you can load in IRB that allows you to:
 
 **Birthday Calendar is a TDD skill workshop practical**
 
+### Stuff to add:  
+
+- to handle calendars with no birthdays today, I will add a method that peeks into the calendar and returns true or false before methods born_today and birthday_info can do their work
+- ideally would add unique names to different calendars to group people by that would all be searchable by a single method
+- writing to a file or database so that the calendars can be stored 
+
 ### Concepts practiced:
 
 - [x] TDD
 - [x] testing with irb
 - [x] matching with regexp
-- [ ] linting with rubocop
+- [x] linting with rubocop
 - [x] implicit vs explicit return statements
-- [ ] 
+- [x] handing classes and objects 

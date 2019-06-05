@@ -4,7 +4,7 @@
 
 - [ ] I write code that is easy to change  
 - [x] I can test-drive my code  
-- [ ] I can build with objects  
+- [x] I can build with objects  
 
 ### Code reviews:
 
@@ -51,4 +51,4 @@
 Date | Project | progress
 --- | --- | ---
 Mon 3.06 | [Oyster Card](https://github.com/aniasobo/oystercard1) with Aleks | 50% done
-4-5.06 | TDD practice - [Birthdays Calendar](https://github.com/aniasobo/birthdaycal) | in progress
+4-5.06 | TDD practice - [Birthdays Calendar](https://github.com/aniasobo/birthdaycal) | done, awaiting review
