@@ -22,3 +22,10 @@
 - [x] linting with rubocop
 - [x] implicit vs explicit return statements
 - [x] handing classes and objects 
+
+### Evidence Gathered:
+
+- [x] I completed the requirements
+- [ ] I can explain my TDD approach to a senior or a coach and they give me feedback on it
+- [x] For each requirement I have a git commit that shows the tests for the requirement and the corresponding code.
+- [x] My code is linted with rubocop

@@ -27,7 +27,7 @@
 
 - [ ] Process workshop
 - [x] Code Review Recipe
-- [ ] Domain modelling
+- [x] Domain modelling
 - [ ] OOP 3: Delegate, Delegate, Delegate
 - [ ] Making code simpler through polymorphism
 - [ ] Mocking with RSpec
@@ -39,7 +39,10 @@
 - [ ] Testing OO Relationships
 - [ ] Learning by building RSpec
 - [ ] Refactoring with OO
-- [x] TDD Practice (from Week 1) - Birthdays app
+- [x] [TDD Practice](https://github.com/makersacademy/birthdays) (from Week 1) - Birthdays app  
+- [ ] [Domain model diagramming](https://github.com/makersacademy/skills-workshops/tree/master/week-2/domain_model_diagramming)
+
+_list of practicals is in Course - Week outlines.md_
 
 ## Projects:
 
@@ -49,3 +52,4 @@
 - [x] ask for feedback
 - [x] learn how to use feature_spec.rb to automate feature tests (more info in Solution to step 12 of Boris Bikes challenge)
 - [x] running tests in isolation using doubles
+- [ ] use feature testing appropriately in a program (following the process)
