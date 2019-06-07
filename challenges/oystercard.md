@@ -25,13 +25,13 @@ _pair coding: Anna & Aleks_
 
 ### Add touch in/out functionality:
 - [x] Add touch in/out support  
-- [ ] Checking mininum balance on touch in  
-- [ ] Charging for the journey  
+- [x] Checking mininum balance on touch in  
+- [x] Charging for the journey  
 
 ### Record the journeys
-- [ ] Saving the entry station  
-- [ ] Adding journey history  
-- [ ] Creating the station class  
+- [x] Saving the entry station  
+- [x] Adding journey history  
+- [x] Creating the station class  
 
 ### Refactor to extract Journey class
 - [ ] Handling a journey without a touch out
@@ -108,4 +108,7 @@ bundle init
 - reading & interpreting the rspec stack trace
 - attribute readers and instance variables, and initialising new objects in a given state - and writing unit tests to verify it
 - using constants in Rspec: accessing by ClassName::CONSTANT_NAME (can be used in string interpolation)
+- tests can be pended with the pending keyword
+
+
 

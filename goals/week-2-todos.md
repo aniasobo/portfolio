@@ -14,7 +14,7 @@
 
 - [x] Use all of week 1's skills (don't underestimate the importance of this)  
 - [x] Break one class into two classes that work together, while maintaining test coverage  
-- [ ] Unit test classes in isolation using mocking  
+- [x] Unit test classes in isolation using mocking  
 - [ ] Explain some basic OO principles and tie them to high level concerns (e.g. ease of change)  
 - [x] Review another person's code and give them meaningful feedback
 
@@ -30,17 +30,17 @@
 - [x] Domain modelling
 - [ ] OOP 3: Delegate, Delegate, Delegate
 - [ ] Making code simpler through polymorphism
-- [ ] Mocking with RSpec
+- [x] Mocking with RSpec
 
 ## Practicals:
 
 - [ ] OO Relationships (Forwarding, Polymorphism)
 - [ ] Dependency Injection
-- [ ] Testing OO Relationships
+- [x] Testing OO Relationships
 - [ ] Learning by building RSpec
 - [ ] Refactoring with OO
 - [x] [TDD Practice](https://github.com/makersacademy/birthdays) (from Week 1) - Birthdays app  
-- [ ] [Domain model diagramming](https://github.com/makersacademy/skills-workshops/tree/master/week-2/domain_model_diagramming)
+- [x] [Domain model diagramming](https://github.com/makersacademy/skills-workshops/tree/master/week-2/domain_model_diagramming)
 
 _list of practicals is in Course - Week outlines.md_
 
@@ -53,3 +53,6 @@ _list of practicals is in Course - Week outlines.md_
 - [x] learn how to use feature_spec.rb to automate feature tests (more info in Solution to step 12 of Boris Bikes challenge)
 - [x] running tests in isolation using doubles
 - [ ] use feature testing appropriately in a program (following the process)
+- [ ] read about UML 
+- [ ] practice UML
+- [ ] find out the difference between before and after hooks & let statements in Rspec & the let statement syntax

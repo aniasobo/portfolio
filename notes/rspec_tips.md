@@ -1,4 +1,4 @@
-# Rspec tips from The Rspec Book
+# Rspec tips
 
 - add --format doc to view better error output, like this:
 
@@ -55,4 +55,45 @@ Pending:
     # something else getting finished
     # ./pending_without_block_spec.rb:2
 ```
+
+**Using let**
+
+Oystercard example from walkthrough:
+
+```
+let(:journey){ {entry_station: entry_station, exit_station: exit_station} }
+
+it 'stores a journey' do
+  subject.touch_in(entry_station)
+  subject.touch_out(exit_station)
+  expect(subject.journeys).to include journey
+end
+```
+
+- correct double syntax for using a double with mock methods and method responses:
+
+```
+journey_class_double = double :journey, complete: true, fare: 1
+```
+
+
+
+
+
+### To use SimpleCov
+
+1. install in Gemfile, bundle etc
+2. in spec_helper, paste this ABOVE RSpec.configure block:   
+
+```
+SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
+  SimpleCov::Formatter::Console,
+  # Want a nice code coverage website? Uncomment this next line!
+  # SimpleCov::Formatter::HTMLFormatter
+])
+SimpleCov.start
+```
+
+3. require 'spec_helper' in your spec files
+4. run rspec  
     
