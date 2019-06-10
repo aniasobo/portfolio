@@ -32,6 +32,10 @@ Project repo | Notes | Pairing feedback
 
 ## Processes & methodologies
 
+- Debugging (add link to screen recording)
+- TDD (add link to screen recording)
+- Domain modelling (add a UML diagram)
+
 ## Weekly notes & learning progress
 
 - [Week 1 notes](https://github.com/aniasobo/portfolio/blob/master/notes/week-1-notes.md) - [to dos](https://github.com/aniasobo/portfolio/blob/master/goals/week-1-todos.md)

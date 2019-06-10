@@ -18,15 +18,16 @@
 
 ## Workshops:
 
-- [ ] Process workshop
+- [x] Process workshop
 - [ ] Modelling the request/response cycle
 - [ ] Debugging 2
 
 ## Practicals:
 
-- [ ] Servers
+- [x] [Servers](https://github.com/makersacademy/skills-workshops/blob/master/practicals/servers_and_clients/servers.md)
 - [ ] Clients
 - [ ] HTTP Servers
+- [ ] RESTful APIs
 
 from previous weeks:
 
@@ -54,17 +55,24 @@ from previous weeks:
 
 ### Personal:
 
-- [ ] practice UML
+- [ ] do the RESTful APIs practical
+- [ ] watch Takeaway challenge walkthrough
 - [ ] get at least 1 feedback
-- [ ] look into private methods
+- [x] look into private methods
 - [ ] do the dependency injection practical
 - [ ] practice test mocks & stubs
 - [ ] complete at least 2 practicals
-- [ ] start re-learning JS
-- [ ] attend a process workshop
+- [x] attend a process workshop
 - [ ] learn about polymorphism
+
+#### for later:
+
+- [ ] practice UML
+- [ ] start re-learning JS
+- [ ] refactor Birthday app according to coach feedback
 - [ ] practice writing better READMEs with added irb run through the app
 - [ ] refactor Takeaway challenge [along those guidelines](https://github.com/makersacademy/takeaway-challenge/blob/master/docs/review.md) - separate the Twilio method into class; re-add the Menu class to have a to_s method that displays the menu; look into dotenv gem - why use it?
+- [ ] gather evidence of debugging skill - be able to explain your process/approach to a coach; complete a practical + add to portfolio; screen recording of debugging
 
 
 ---

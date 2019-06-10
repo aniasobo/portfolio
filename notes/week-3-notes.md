@@ -1,6 +1,6 @@
 # Week three 10-16.06.2019
 
-## Course goals:
+## Goals:
 
 - [ ] Build a simple web app
 - [ ] Follow an effective debugging process for web applications
@@ -13,7 +13,7 @@
 
 Date | Project | progress
 --- | --- | ---
-
+10.06 | Battle - pairing | feedback
 
 ---
 
@@ -45,12 +45,19 @@ end
 
 ---
 
-## Code review notes:
+## Servers 1 practical:
+
+
+### Code review workshop notes:
 
 - private methods are not to be tested!
+- be careful to not expose instance vars by assigning them as attribute accessors instead of readers
+- dotenv gem: create .env files for your environment variables (as alternative to storing them in bash_profile), remember to add all .env files to .gitignore 
+- zsh? alt to Terminal
+- integration test vs feature test - the former is concerned primarily with testing the relationships between objects/classes, the latter tests those naturally in the course of testing the app
 
 
-## The two schools of TDD
+### The two schools of TDD
 
 [London school vs Chicago school of TDD](http://programmers.stackexchange.com/questions/123627/what-are-the-london-and-chicago-schools-of-tdd)
 
