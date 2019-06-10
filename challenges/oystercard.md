@@ -109,6 +109,7 @@ bundle init
 - attribute readers and instance variables, and initialising new objects in a given state - and writing unit tests to verify it
 - using constants in Rspec: accessing by ClassName::CONSTANT_NAME (can be used in string interpolation)
 - tests can be pended with the pending keyword
+- extracting a class from another class: move appropriate tests to the new spec file first
 
 
 

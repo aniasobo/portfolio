@@ -2,7 +2,7 @@
 
 ## Goals:
 
-- [ ] I write code that is easy to change  
+- [x] I write code that is easy to change  
 - [x] I can test-drive my code  
 - [x] I can build with objects  
 
@@ -67,6 +67,7 @@ Mon 3.06 | [Oyster Card](https://github.com/aniasobo/oystercard1) with Aleks | 5
 4-5.06 | TDD practice - [Birthdays Calendar](https://github.com/aniasobo/birthdaycal) | done, awaiting review
 6.06 | Domain modelling workshop & practical | in progress
 7.06 | [Testing OO relationships practical](https://github.com/aniasobo/testing-relationships-between-classes) | in progress
+8-9.06 | [Takeaway](https://github.com/aniasobo/takeaway-challenge) - weekend challenge | [review notes](https://github.com/makersacademy/takeaway-challenge/pull/1351)
 
 ---
 
@@ -86,9 +87,8 @@ Mon 3.06 | [Oyster Card](https://github.com/aniasobo/oystercard1) with Aleks | 5
 **UML**
 
 - [Unified Modeling Language](https://www.ibm.com/developerworks/rational/library/769.html)
-- 
 
-
+### User stories:
 
 classes: Note & Notebook
 - [x] Note - initialised with a tag attribute (empty)
@@ -110,7 +110,6 @@ classes: Note & Notebook
 - mock = double('text', bye: 'more text') => names the double, gives it a method and something to return; same as: allow(mock).to receive(:bye).and_return('more text')
 - use instances in the feature test
 - doubles don't care about additional, unspecified args
-- 
 
 #### Correct order:
 

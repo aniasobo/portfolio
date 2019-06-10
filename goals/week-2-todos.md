@@ -15,13 +15,13 @@
 - [x] Use all of week 1's skills (don't underestimate the importance of this)  
 - [x] Break one class into two classes that work together, while maintaining test coverage  
 - [x] Unit test classes in isolation using mocking  
-- [ ] Explain some basic OO principles and tie them to high level concerns (e.g. ease of change)  
+- [x] Explain some basic OO principles and tie them to high level concerns (e.g. ease of change)  
 - [x] Review another person's code and give them meaningful feedback
 
 ## Challenges:
 
-- [ ] Oyster Card - afternoons - pairing
-- [ ] Takeaway - weekend - individual
+- [x] Oyster Card - afternoons - pairing
+- [x] Takeaway - weekend - individual
 
 ## Workshops:
 
@@ -31,13 +31,14 @@
 - [ ] OOP 3: Delegate, Delegate, Delegate
 - [ ] Making code simpler through polymorphism
 - [x] Mocking with RSpec
+- [x] building RSpec
 
 ## Practicals:
 
 - [ ] OO Relationships (Forwarding, Polymorphism)
 - [ ] Dependency Injection
 - [x] Testing OO Relationships
-- [ ] Learning by building RSpec
+- [x] Learning by building RSpec
 - [ ] Refactoring with OO
 - [x] [TDD Practice](https://github.com/makersacademy/birthdays) (from Week 1) - Birthdays app  
 - [x] [Domain model diagramming](https://github.com/makersacademy/skills-workshops/tree/master/week-2/domain_model_diagramming)
@@ -52,7 +53,13 @@ _list of practicals is in Course - Week outlines.md_
 - [x] ask for feedback
 - [x] learn how to use feature_spec.rb to automate feature tests (more info in Solution to step 12 of Boris Bikes challenge)
 - [x] running tests in isolation using doubles
-- [ ] use feature testing appropriately in a program (following the process)
-- [ ] read about UML 
-- [ ] practice UML
-- [ ] find out the difference between before and after hooks & let statements in Rspec & the let statement syntax
+- [x] use feature testing appropriately in a program (following the process)
+- [x] read about UML 
+- [x] practice UML
+- [x] find out the difference between before and after hooks & let statements in Rspec & the let statement syntax
+
+# Lifetime total hours of coding:
+
+```
+430
+```

@@ -76,7 +76,11 @@ end
 journey_class_double = double :journey, complete: true, fare: 1
 ```
 
+- .rspec flags: add this for better command line feedback:
 
+```
+--color --format documentation
+```
 
 
 
