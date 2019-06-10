@@ -45,6 +45,11 @@ end
 
 ---
 
+## Code review notes:
+
+- private methods are not to be tested!
+
+
 ## The two schools of TDD
 
 [London school vs Chicago school of TDD](http://programmers.stackexchange.com/questions/123627/what-are-the-london-and-chicago-schools-of-tdd)
