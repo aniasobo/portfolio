@@ -72,12 +72,18 @@ shotgun app.rb -p 4567
 
 - the p tells shotgun which port to use
 - shotgun uses port 9393 by default
+- (substitute shotgun for ruby in that command to run without shotgun for debugging)
 - to secure session data, add this to your app:
 
 ```
 set :session_secret, 'super secret'
 ```
 
+- in shotgun documentation, run this if server isn't rendering in localhost:
+
+```
+shotgun config.ru
+```
 
 ## Sinatra:
 
@@ -132,3 +138,8 @@ end
 erb "Hi there, Visitor <%= 2 + 2 %>!"
 # => "Hi there, Visitor 4!"
 ```
+
+### setting up test suite
+
+- adding stuff to spec_helper - find Setup instructions for Capybara/other tools in their documentation; for Sinatra pick the Rack setup instructions
+- the RACK_ENV environment variable sets to production on deployment, to test when set in the spec_helper 

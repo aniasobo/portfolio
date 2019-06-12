@@ -87,3 +87,36 @@ describe Order do
   end
 end
 ```
+
+---
+
+## Modeling the request-response cycle workshop
+
+Learning objective:
+
+- [x] practice modeling 
+
+---
+
+## Debugging web apps workshop:
+
+> "Tighten the loop; Get visibility."
+
+- find the exact line with the bug; to tighten the loop: use p to get visibility; read the stack trace
+
+**types of bugs:**
+
+1. Error in code - syntax error, name error etc
+2. Unexpected behaviour - expected vs actual (code works but doesn't do what you want it to)
+
+**save_and_open_page**
+
+- for debugging with Capybara (a Capybara method)
+- takes a snapshot of the page
+
+#### process:
+
+1. added require shotgun to app.rb to make it run in localhost
+2. changed struggle word across code 
+3. added another emoji to the happy emoji sample array
+4. model - view - controller pattern: app.rb is the controller; struggle_table_flipper.rb & random_happy_emoji.rb are the models; controller sends & receives messages from/to model; index & flipped_struggle are views; no interaction between model and view; what view returns will be displayed to the user by the controller

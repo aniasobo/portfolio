@@ -19,13 +19,13 @@
 ## Workshops:
 
 - [x] Process workshop
-- [ ] Modelling the request/response cycle
-- [ ] Debugging 2
+- [x] Modelling the request/response cycle
+- [x] Debugging 2
 
 ## Practicals:
 
 - [x] [Servers](https://github.com/makersacademy/skills-workshops/blob/master/practicals/servers_and_clients/servers.md)
-- [ ] Clients
+- [x] Clients
 - [ ] HTTP Servers
 - [ ] RESTful APIs
 
@@ -61,7 +61,7 @@ from previous weeks:
 - [x] look into private methods
 - [ ] do the dependency injection practical
 - [ ] practice test mocks & stubs
-- [ ] complete at least 2 practicals
+- [x] complete at least 2 practicals
 - [x] attend a process workshop
 - [ ] learn about polymorphism
 
