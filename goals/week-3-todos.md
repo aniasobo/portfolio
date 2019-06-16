@@ -2,18 +2,18 @@
 
 ## Course-goal related:
 
-- [ ] Build a web app
+- [x] Build a web app
 
 ## By the end be able to:
 
-- [ ] Build a simple web app
-- [ ] Follow an effective debugging process for web applications
-- [ ] Explain the basics of how the web works (e.g. request/response, HTTP, HTML, CSS)
-- [ ] Explain the MVC pattern
+- [x] Build a simple web app
+- [x] Follow an effective debugging process for web applications
+- [x] Explain the basics of how the web works (e.g. request/response, HTTP, HTML, CSS)
+- [x] Explain the MVC pattern
 
 ## Challenges:
 
-- [ ] Battle - Afternoons - Pairing
+- [x] Battle - Afternoons - Pairing
 - [ ] RPS - Weekend - Individual
 
 ## Workshops:
@@ -21,24 +21,19 @@
 - [x] Process workshop
 - [x] Modelling the request/response cycle
 - [x] Debugging 2
+- [x] Empathy
 
 ## Practicals:
 
 - [x] [Servers](https://github.com/makersacademy/skills-workshops/blob/master/practicals/servers_and_clients/servers.md)
 - [x] Clients
-- [ ] HTTP Servers
-- [ ] RESTful APIs
+- [x] HTTP Servers
+- [x] RESTful APIs
 
-from previous weeks:
-
-- [ ] OO Relationships (Forwarding, Polymorphism)
-- [ ] Refactoring with OO
-- [ ] Dependency Injection
-- [ ] Encapsulation
 
 ### Concepts
 
-- The relationship between a client and a server.
+- Modeling the relationship between a client and a server.
 - How HTTP is used to send information over the web.
 - RESTful APIs.
 - The request/response cycle.
@@ -55,25 +50,25 @@ from previous weeks:
 
 ### Personal:
 
-- [ ] do the RESTful APIs practical
+- [x] do the RESTful APIs practical
 - [ ] watch Takeaway challenge walkthrough
-- [ ] get at least 1 feedback
 - [x] look into private methods
-- [ ] do the dependency injection practical
 - [ ] practice test mocks & stubs
 - [x] complete at least 2 practicals
 - [x] attend a process workshop
-- [ ] learn about polymorphism
+- [ ] learn about polymorphism & dependency injection
+- [ ] find out why global variables are taboo
 
 #### for later:
 
 - [ ] practice UML
 - [ ] start re-learning JS
+- [ ] read up on metaprogramming
 - [ ] refactor Birthday app according to coach feedback
 - [ ] practice writing better READMEs with added irb run through the app
 - [ ] refactor Takeaway challenge [along those guidelines](https://github.com/makersacademy/takeaway-challenge/blob/master/docs/review.md) - separate the Twilio method into class; re-add the Menu class to have a to_s method that displays the menu; look into dotenv gem - why use it?
 - [ ] gather evidence of debugging skill - be able to explain your process/approach to a coach; complete a practical + add to portfolio; screen recording of debugging
-
+- [ ] [study this implementation of the battle challenge](https://github.com/sjmog/battle/)
 
 ---
 

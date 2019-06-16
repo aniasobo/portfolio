@@ -3,9 +3,9 @@
 ## Goals:
 
 - [ ] Build a simple web app
-- [ ] Follow an effective debugging process for web applications
-- [ ] Explain the basics of how the web works (e.g. request/response, HTTP, HTML, CSS)
-- [ ] Explain the MVC pattern
+- [x] Follow an effective debugging process for web applications
+- [x] Explain the basics of how the web works (e.g. request/response, HTTP, HTML, CSS)
+- [x] Explain the MVC pattern
 
 ---  
 
@@ -14,8 +14,16 @@
 Date | Project | progress
 --- | --- | ---
 10.06 | Battle - pairing | feedback
+12.06 | Degugging workshop practical | completed
+12.06 | RESTful APIs practical | completed
+15-16.06 | RPS game | completed
 
 ---
+
+## Lesson from weeks 1-3:
+
+> Even if you have no time to finish a challenge, read all the remaining steps + their walkthroughs at the end, and watch a video walkthrough where available - you still learn some extra lessons that you can later apply in practice
+
 
 ### Notes on the weekend challenge/code review:
 
@@ -44,9 +52,6 @@ end
 4. Manage Your Network Stubbing with VCR
 
 ---
-
-## Servers 1 practical:
-
 
 ### Code review workshop notes:
 
@@ -90,14 +95,6 @@ end
 
 ---
 
-## Modeling the request-response cycle workshop
-
-Learning objective:
-
-- [x] practice modeling 
-
----
-
 ## Debugging web apps workshop:
 
 > "Tighten the loop; Get visibility."
@@ -120,3 +117,168 @@ Learning objective:
 2. changed struggle word across code 
 3. added another emoji to the happy emoji sample array
 4. model - view - controller pattern: app.rb is the controller; struggle_table_flipper.rb & random_happy_emoji.rb are the models; controller sends & receives messages from/to model; index & flipped_struggle are views; no interaction between model and view; what view returns will be displayed to the user by the controller
+
+---
+
+## RESTful APIs:
+
+REST - a set of conventions for writing routes
+
+### Resources
+
+Web = network of resources; resource = data stored somewhere  
+
+**a resource is a "//noun// stored //location//"**
+
+### Representations  
+
+Representation = route for a user to take to a resource (ex. stuff that ties the URL to an action)
+
+**NOUN/plural/id**  
+
+Example RESTful representations:
+
+```
+GET /bookmarks/1
+GET /users/217
+GET /image.jpg
+GET /bookmarks/1
+GET /index.html
+```
+
+**Web applications are state machines and REST defines their interface**
+
+RESTful routing exposes the nature of your web app - a state machine capable of a certain variety of states.  
+
+Movements between those states are determined by user interactions, called **state transitions**:  
+
+state | state transition | RESTful route  
+--- | --- | ---
+Having 35 bookmarks | returns 35 bookmarks | GET /bookmarks
+Adding a bookmark | transitions the machine to a new state, returns 36 bookmarks | POST /bookmarks
+Deleting a bookmark | transitions the machine to a new state of 35 bookmarks, returns 35 bookmarks | DELETE /bookmarks/4
+
+#### states & state transitions:
+
+- Having 35 bookmarks (state)
+- Adding a bookmark (state transition)
+- Having 36 bookmarks (state)
+- Deleting a bookmark (state transition)
+- Having 35 bookmarks (state)
+
+
+### Ruby Net class
+
+a library for building http user-agents
+
+
+```
+require 'net/http'
+```
+
+get web content as string:
+
+```
+Net::HTTP.get('example.com', '/index.html') # => String
+```
+
+get web content by URI (it's automatically required with Net so no need to additionally require it:
+
+```
+uri = URI('http://example.com/index.html?count=10')
+Net::HTTP.get(uri) # => String
+```
+---
+
+## OOP
+
+> Good OOP is about telling objects what you want done, not querying an object and acting on its behalf. Data and operations that depend on that data belong in the same object.
+
+> [Tell, don’t ask!](https://thoughtbot.com/blog/tell-dont-ask)
+
+[How to write good classes.](https://thoughtbot.com/blog/meditations-on-a-class-method)
+
+## Metaprogramming 
+
+Problem: the @instancevar goes out of scope when response is sent.  
+
+**Solution:**  
+
+- call methods on the class itself, as opposed to instance (like .new)
+- do this by prefixing the method name with self.
+
+```
+class MyClass
+  def self.my_class_method(some_arg)
+    # to call this method you would do this:
+    # MyClass.my_class_method('an argument')
+    @arg = some_arg
+  end
+end
+```  
+
+- @arg is NOT visible to any instance of MyClass; it's only accessible to other class methods (so other self.methods)
+- to call the above method:
+
+```
+MyClass.my_class_method('an argument')
+```
+
+- in Battle challenge:
+
+```
+def self.create(player1, player2)
+  @game = Game.new(player1, player2)
+end
+
+def self.instance
+  @game
+end
+
+#called like this:
+
+@game = Game.instance
+```
+
+- both create and instance have access to @game
+- in the controller, run those like this:
+
+```
+post '/playernames' do
+  player1 = Player.new(params[:player1name])
+  player2 = Player.new(params[:player2name])
+  @game = Game.create(player1, player2)
+  redirect '/battle'
+end
+
+get '/battle' do
+  @game = Game.instance
+end
+```
+
+- then refactor with a Sinatra filter:
+
+```
+before do
+  @game = Game.instance
+end
+```
+
+- this way @game is defined in every route, and in /playernames it gets overriden by @game = Game.create(player1, player2)
+
+---  
+
+## Empathy workshop
+
+_importance of empathy_  
+
+The main domains of EI: self awareness, self regulation, empathy, social skills, motivation.  
+
+_common hindrances_
+
+_ways to train empathy_
+
+1. everyone is just like me
+2. loving-kindness meditation (Metta Bhavana)
+3. empathetic listening (pretend you'll have to write a test on what the other person is saying later)
+
