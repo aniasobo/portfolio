@@ -1,10 +1,10 @@
-# Week 4 to dos:
+# Week 4 to dos:  
 
 ## Goals:
 
 - [ ] Build a simple web app with a database
 - [ ] Follow an effective debugging process for database applications
-- [ ] Explain the basics of how databases work (e.g. tables, SQL, basic relationships)
+- [x] Explain the basics of how databases work (e.g. tables, SQL, basic relationships)
 
 ## Challenges:
 
@@ -18,9 +18,22 @@
 
 ## Skills workshops
 - [ ] CRC Cards
-- [ ] REST
+- [x] REST
+- [ ] Uncovering database design 
 
 ## Misc:
 - [ ] start learning JS
 - [ ] setting up Travis on repos + the GitHub badge
-- [ ] learn about polymorphism & dependency injection
+- [ ] learn about polymorphism & dependency injection with practicals
+- [ ] refactor RPS to use a db
+
+
+
+
+
+
+# Lifetime total hours of coding:
+
+```
+465
+```
