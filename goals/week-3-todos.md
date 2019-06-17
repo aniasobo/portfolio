@@ -14,7 +14,7 @@
 ## Challenges:
 
 - [x] Battle - Afternoons - Pairing
-- [ ] RPS - Weekend - Individual
+- [x] RPS - Weekend - Individual
 
 ## Workshops:
 
@@ -57,23 +57,24 @@
 - [x] complete at least 2 practicals
 - [x] attend a process workshop
 - [ ] learn about polymorphism & dependency injection
-- [ ] find out why global variables are taboo
+- [x] find out why global variables are taboo
 
 #### for later:
 
 - [ ] practice UML
 - [ ] start re-learning JS
-- [ ] read up on metaprogramming
+- [x] read up on metaprogramming
 - [ ] refactor Birthday app according to coach feedback
 - [ ] practice writing better READMEs with added irb run through the app
 - [ ] refactor Takeaway challenge [along those guidelines](https://github.com/makersacademy/takeaway-challenge/blob/master/docs/review.md) - separate the Twilio method into class; re-add the Menu class to have a to_s method that displays the menu; look into dotenv gem - why use it?
 - [ ] gather evidence of debugging skill - be able to explain your process/approach to a coach; complete a practical + add to portfolio; screen recording of debugging
-- [ ] [study this implementation of the battle challenge](https://github.com/sjmog/battle/)
+- [x] [study this implementation of the battle challenge](https://github.com/sjmog/battle/)
+- [ ] setting up Travis on repos + the GitHub badge
 
 ---
 
 # Lifetime total hours of coding:
 
 ```
-430
+463
 ```

@@ -73,7 +73,7 @@ shotgun app.rb -p 4567
 - the p tells shotgun which port to use
 - shotgun uses port 9393 by default
 - (substitute shotgun for ruby in that command to run without shotgun for debugging)
-- to secure session data, add this to your app:
+- to make sure session data doesn't reset between session and can be encrypted and decrypted from one session to another (?), add this to your app:
 
 ```
 set :session_secret, 'super secret'

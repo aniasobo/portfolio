@@ -2,7 +2,7 @@
 
 ## Goals:
 
-- [ ] Build a simple web app
+- [x] Build a simple web app
 - [x] Follow an effective debugging process for web applications
 - [x] Explain the basics of how the web works (e.g. request/response, HTTP, HTML, CSS)
 - [x] Explain the MVC pattern
@@ -13,10 +13,10 @@
 
 Date | Project | progress
 --- | --- | ---
-10.06 | Battle - pairing | feedback
+10.06 | [Battle](https://github.com/aniasobo/poki-battle) - pairing | mostly completed
 12.06 | Degugging workshop practical | completed
-12.06 | RESTful APIs practical | completed
-15-16.06 | RPS game | completed
+12.06 | [RESTful APIs practical](https://github.com/sjmog/rest) | completed
+15-16.06 | RPS game | [completed](https://github.com/aniasobo/rps-challenge) | [review](https://github.com/makersacademy/rps-challenge/pull/1329/files)
 
 ---
 
