@@ -56,6 +56,9 @@ Pending:
     # ./pending_without_block_spec.rb:2
 ```
 
+- pending with block: add x before it/scenario
+
+
 **Using let**
 
 Oystercard example from walkthrough:

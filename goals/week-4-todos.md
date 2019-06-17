@@ -26,6 +26,7 @@
 - [ ] setting up Travis on repos + the GitHub badge
 - [ ] learn about polymorphism & dependency injection with practicals
 - [ ] refactor RPS to use a db
+- [ ] finish the RPS game
 
 
 
