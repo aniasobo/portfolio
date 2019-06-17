@@ -4,7 +4,7 @@
 
 - [ ] Build a simple web app with a database
 - [ ] Follow an effective debugging process for database applications
-- [ ] Explain the basics of how databases work (e.g. tables, SQL, basic relationships)
+- [x] Explain the basics of how databases work (e.g. tables, SQL, basic relationships)
 
 ---  
 
@@ -12,7 +12,7 @@
 
 Date | Project | progress
 --- | --- | ---
-
+17.06 | [Bookmark manager](https://github.com/aniasobo/bookmark-challenge) | pairing with Rhys; [progress note](https://github.com/aniasobo/portfolio/blob/master/challenges/bookmark-manager.md)
 
 ---  
 
