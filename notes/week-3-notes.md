@@ -16,7 +16,7 @@ Date | Project | progress
 10.06 | [Battle](https://github.com/aniasobo/poki-battle) - pairing | mostly completed
 12.06 | Degugging workshop practical | completed
 12.06 | [RESTful APIs practical](https://github.com/sjmog/rest) | completed
-15-16.06 | RPS game | [completed](https://github.com/aniasobo/rps-challenge) | [review](https://github.com/makersacademy/rps-challenge/pull/1329/files)
+15-16.06 | RPS game | [work in progress](https://github.com/aniasobo/rps-challenge) | [review](https://github.com/makersacademy/rps-challenge/pull/1329/files)
 
 ---
 
@@ -100,6 +100,14 @@ end
 > "Tighten the loop; Get visibility."
 
 - find the exact line with the bug; to tighten the loop: use p to get visibility; read the stack trace
+
+**STEPS**
+
+1. Take a break
+2. Rubber duck
+3. Check your assumptions
+4. Follow the flow and get visibility
+5. Repeat
 
 **types of bugs:**
 

@@ -4,7 +4,7 @@ _Makers Academy Week 4 challenge_
 
 ## Functionality:
 
-- [ ] Show a list of bookmarks
+- [x] Show a list of bookmarks
 - [ ] Add new bookmarks
 - [ ] Delete bookmarks
 - [ ] Update bookmarks
