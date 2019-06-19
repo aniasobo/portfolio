@@ -23,9 +23,9 @@ _Makers Academy Week 4 challenge_
 - [x] Manipulating Table Data
 - [x] Interacting with Postgres from Ruby
 - [x] Upgrading your Toolset
-- [ ] Setting up a Testing Environment
-- [ ] Creating bookmarks
-- [ ] Wrapping Database data in program objects
+- [x] Setting up a Testing Environment
+- [x] Creating bookmarks
+- [x] Wrapping Database data in program objects
 - [ ] Deleting bookmarks
 - [ ] CRUD
 - [ ] Extracting a Database Setup object
@@ -42,7 +42,7 @@ _Makers Academy Week 4 challenge_
 - setting up Sinatra with Capybara and rspec
 - adding images to README straight from the repo images folder
 - PostGres and its integration into a Sinatra project
-- setting up a test environment with PG
+- setting up a test environment
 
 
 ### Approach:
@@ -52,10 +52,12 @@ _Makers Academy Week 4 challenge_
 - database: bookmark_manager
 - test database: bookmark_manager_test
 - table: bookmarks (id as primary key, url with max 60 characters)
-- only one route: index
-- add bookmark form reloads index with added bookmark (refactor because code not DRY)
+- only one view: index
+- add bookmark form reloads index with added bookmark
+- add bookmark creates a new instance of the BookmarkManager class; the class method self.all retrieves all from database
 
 
 ## Refactoring to dos:
 
-- DRY out the controller - get '/' route is duplicated 
+- [ ] add test coverage?
+- [ ] 

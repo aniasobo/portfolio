@@ -13,7 +13,7 @@
 Date | Project | progress
 --- | --- | ---
 17.06 | [Bookmark manager](https://github.com/aniasobo/bookmark-challenge) | [pairing with Rhys](https://github.com/aniasobo/portfolio/blob/master/feedback/feedback%20from%20Rhys.md); [progress note](https://github.com/aniasobo/portfolio/blob/master/challenges/bookmark-manager.md)
-19.06 | [Daily Diary app](https://github.com/aniasobo/daily-diary-app) | progress note 
+19.06 | [Daily Diary app](https://github.com/aniasobo/daily-diary-app) | [progress note](https://github.com/aniasobo/portfolio/blob/master/challenges/daily-diary.md) 
 
 ---  
 
@@ -90,3 +90,61 @@ Displaying all bookmarks in the bookmarks array in index:
 <% end %>
 </ol>
 ```
+
+---
+
+## Uncovering database design workshop
+
+- modelling a domain with Class Responsibility Collaborator cards
+- one-to-many relationship should exist on the many (on Bikes as opposed to on Docking Stations)
+- many-to-many - joined table
+- each table should be associated with a class
+- joined table doesn't require an id
+- joined table is associated with a class - querying the table creates instances of it (self method?)
+- use class methods to query the db associated with a class (not instance method)
+- never put lists in a table cell - if this is required, it means you need to redesign the table into more than one table
+
+**goals**
+
+- [x] Explain how to use CRC cards to model a domain
+- [x] Model a simple domain using CRC cards
+- [x] Infer database structure from domain structure
+
+#### CRC:
+
+| Class |
+| ------ | 
+| Responsibilities | Collaborators | 
+| --- | --- | 
+
+**example**
+
+| DockingStation |
+| ------ | 
+| Responsibilities | Collaborators | 
+| --- | --- | 
+| release_bike | Bike |
+| dock | Bike |
+| bike_count | Bike |
+
+
+| Bike |
+| ------ | 
+| Responsibilities | Collaborators | 
+| --- | --- | 
+| working? | 
+
+**db structure**
+
+| Table: Bikes | 
+| --- | 
+| id | working | docking_station_id |
+| --- | --- | --- |
+| 1 | true | 1 |
+
+
+| Table: docking_stations |
+| --- | 
+| id | 
+| 1 | 
+

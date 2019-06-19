@@ -15,16 +15,18 @@
 
 - [ ] Entity Relationship Diagrams
 - [ ] SQLZoo
+- [x] Daily Diary app
 
 ## Skills workshops
-- [ ] CRC Cards
+- [x] CRC Cards
 - [x] REST
-- [ ] Uncovering database design 
+- [x] Uncovering database design 
 
 ## Misc:
 - [ ] start learning JS
 - [ ] setting up Travis on repos + the GitHub badge
 - [ ] learn about polymorphism & dependency injection with practicals
+- [ ] finish the Daily Diary app to minimum viable product level
 - [ ] finish the RPS game
 - [ ] learn about setting up test environment
 

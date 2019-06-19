@@ -40,3 +40,10 @@ Daily Diary is an application to store daily diary entries, using Sinatra and Po
 - diagraming
 - coding!
 - problem solving/debugging
+
+
+### Approach:
+
+- as first step, I set up the project with rspec, capybara and sinatra, following the ruby project setup checklist
+- I added the user stories I'm planning to cover to feature test spec files
+- 
