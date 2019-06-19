@@ -60,4 +60,4 @@ _Makers Academy Week 4 challenge_
 ## Refactoring to dos:
 
 - [ ] add test coverage?
-- [ ] 
+- [ ] unstage removed files?

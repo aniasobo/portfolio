@@ -113,14 +113,14 @@ Displaying all bookmarks in the bookmarks array in index:
 #### CRC:
 
 | Class |
-| ------ | 
+| --- | 
 | Responsibilities | Collaborators | 
 | --- | --- | 
 
 **example**
 
 | DockingStation |
-| ------ | 
+| --- | 
 | Responsibilities | Collaborators | 
 | --- | --- | 
 | release_bike | Bike |
@@ -129,7 +129,7 @@ Displaying all bookmarks in the bookmarks array in index:
 
 
 | Bike |
-| ------ | 
+| --- | 
 | Responsibilities | Collaborators | 
 | --- | --- | 
 | working? | 
