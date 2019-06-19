@@ -112,15 +112,14 @@ Displaying all bookmarks in the bookmarks array in index:
 
 #### CRC:
 
-| Class |
-| --- | 
+_Class_
 | Responsibilities | Collaborators | 
 | --- | --- | 
+| action | agent |
 
-**example**
+**Examples:**  
 
-| DockingStation |
-| --- | 
+_DockingStation_
 | Responsibilities | Collaborators | 
 | --- | --- | 
 | release_bike | Bike |
@@ -128,23 +127,21 @@ Displaying all bookmarks in the bookmarks array in index:
 | bike_count | Bike |
 
 
-| Bike |
-| --- | 
+_Bike_
 | Responsibilities | Collaborators | 
 | --- | --- | 
-| working? | 
+| working? | Bike | 
 
-**db structure**
+**Designing db structures:**
 
-| Table: Bikes | 
-| --- | 
+_Table: bikes_
 | id | working | docking_station_id |
 | --- | --- | --- |
 | 1 | true | 1 |
 
 
-| Table: docking_stations |
-| --- | 
+_Table: docking_stations_
 | id | 
+| --- | 
 | 1 | 
 
