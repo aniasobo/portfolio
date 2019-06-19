@@ -8,7 +8,7 @@
 
 ## Challenges:
 
-- [ ] Afternoons - Bookmark Manager - pairing
+- [x] Afternoons - Bookmark Manager - pairing
 - [ ] Weekend - Chitter - individual
 
 ## Practicals:
@@ -25,8 +25,8 @@
 - [ ] start learning JS
 - [ ] setting up Travis on repos + the GitHub badge
 - [ ] learn about polymorphism & dependency injection with practicals
-- [ ] refactor RPS to use a db
 - [ ] finish the RPS game
+- [ ] learn about setting up test environment
 
 
 

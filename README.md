@@ -30,7 +30,7 @@ Project repo | Notes | Pairing feedback
 [Takeaway challenge](https://github.com/aniasobo/takeaway-challenge) | [progress note](https://github.com/aniasobo/portfolio/blob/master/challenges/takeaway.md) | individual work
 [Battle challenge](https://github.com/aniasobo/poki-battle) | [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/battle.md) | pairing
 [RPS challenge](https://github.com/aniasobo/rps-challenge) | [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/rps.md) | individual
-[Bookmark manager](https://github.com/aniasobo/bookmark-challenge) | [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/bookmark-manager.md) | pairing feedback from Rhys
+[Bookmark manager](https://github.com/aniasobo/bookmark-challenge) | [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/bookmark-manager.md) | [pairing feedback from Rhys](https://github.com/aniasobo/portfolio/blob/master/feedback/feedback%20from%20Rhys.md)
 
 
 ## Processes & methodologies

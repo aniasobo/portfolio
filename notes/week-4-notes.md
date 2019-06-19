@@ -12,7 +12,8 @@
 
 Date | Project | progress
 --- | --- | ---
-17.06 | [Bookmark manager](https://github.com/aniasobo/bookmark-challenge) | pairing with Rhys; [progress note](https://github.com/aniasobo/portfolio/blob/master/challenges/bookmark-manager.md)
+17.06 | [Bookmark manager](https://github.com/aniasobo/bookmark-challenge) | [pairing with Rhys](https://github.com/aniasobo/portfolio/blob/master/feedback/feedback%20from%20Rhys.md); [progress note](https://github.com/aniasobo/portfolio/blob/master/challenges/bookmark-manager.md)
+19.06 | [Daily Diary app](https://github.com/aniasobo/daily-diary-app) | progress note 
 
 ---  
 
@@ -73,3 +74,19 @@ find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
 ```
 
 run the above in terminal, then add .DS_Store to .gitignore & commit
+
+---
+
+## ERB views
+
+<% %>s without the = get executed but not displayed in the view
+
+Displaying all bookmarks in the bookmarks array in index:
+
+```
+<h1>Bookmark Manager</h1>
+<ol><% @bookmarks.each do |bookmark| %>
+<li><a href="<%= p bookmark %>"><%= p bookmark %></a></li>
+<% end %>
+</ol>
+```

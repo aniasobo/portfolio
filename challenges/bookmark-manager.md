@@ -5,7 +5,7 @@ _Makers Academy Week 4 challenge_
 ## Functionality:
 
 - [x] Show a list of bookmarks
-- [ ] Add new bookmarks
+- [x] Add new bookmarks
 - [ ] Delete bookmarks
 - [ ] Update bookmarks
 - [ ] Comment on bookmarks
@@ -22,7 +22,7 @@ _Makers Academy Week 4 challenge_
 - [x] Creating your First Table
 - [x] Manipulating Table Data
 - [x] Interacting with Postgres from Ruby
-- [ ] Upgrading your Toolset
+- [x] Upgrading your Toolset
 - [ ] Setting up a Testing Environment
 - [ ] Creating bookmarks
 - [ ] Wrapping Database data in program objects
@@ -41,11 +41,21 @@ _Makers Academy Week 4 challenge_
 - user stories - guided by this [Pill](https://github.com/makersacademy/course/blob/master/pills/user_stories.md) and [gov.uk](https://www.gov.uk/service-manual/agile-delivery/writing-user-stories)
 - setting up Sinatra with Capybara and rspec
 - adding images to README straight from the repo images folder
+- PostGres and its integration into a Sinatra project
+- setting up a test environment with PG
 
 
 ### Approach:
 
 - app.rb - controller
 - bookmark_manager - the BookmarkManager class
-- database: bookmarkmanager
+- database: bookmark_manager
+- test database: bookmark_manager_test
 - table: bookmarks (id as primary key, url with max 60 characters)
+- only one route: index
+- add bookmark form reloads index with added bookmark (refactor because code not DRY)
+
+
+## Refactoring to dos:
+
+- DRY out the controller - get '/' route is duplicated 
