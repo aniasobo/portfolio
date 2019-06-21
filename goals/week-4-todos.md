@@ -2,8 +2,8 @@
 
 ## Goals:
 
-- [ ] Build a simple web app with a database
-- [ ] Follow an effective debugging process for database applications
+- [x] Build a simple web app with a database
+- [x] Follow an effective debugging process for database applications
 - [x] Explain the basics of how databases work (e.g. tables, SQL, basic relationships)
 
 ## Challenges:
@@ -26,9 +26,9 @@
 - [ ] start learning JS
 - [ ] setting up Travis on repos + the GitHub badge
 - [ ] learn about polymorphism & dependency injection with practicals
-- [ ] finish the Daily Diary app to minimum viable product level
+- [x] finish the Daily Diary app to minimum viable product level
 - [ ] finish the RPS game
-- [ ] learn about setting up test environment
+- [x] learn about setting up test environment
 
 
 

@@ -2,8 +2,8 @@
 
 ## Goals:
 
-- [ ] Build a simple web app with a database
-- [ ] Follow an effective debugging process for database applications
+- [x] Build a simple web app with a database
+- [x] Follow an effective debugging process for database applications
 - [x] Explain the basics of how databases work (e.g. tables, SQL, basic relationships)
 
 ---  
@@ -13,7 +13,8 @@
 Date | Project | progress
 --- | --- | ---
 17.06 | [Bookmark manager](https://github.com/aniasobo/bookmark-challenge) | [pairing with Rhys](https://github.com/aniasobo/portfolio/blob/master/feedback/feedback%20from%20Rhys.md); [progress note](https://github.com/aniasobo/portfolio/blob/master/challenges/bookmark-manager.md)
-19.06 | [Daily Diary app](https://github.com/aniasobo/daily-diary-app) | [progress note](https://github.com/aniasobo/portfolio/blob/master/challenges/daily-diary.md) 
+19-21.06 | [Daily Diary app](https://github.com/aniasobo/daily-diary-app) | [progress note](https://github.com/aniasobo/portfolio/blob/master/challenges/daily-diary.md) 
+20.06 | working on [Remy's Bookmark manager repo](https://github.com/IndecentDolphin/bookmark_manager/) | step #13 completed
 
 ---  
 
@@ -149,4 +150,14 @@ _Table: docking_stations_
 | id | 
 | --- | 
 | 1 | 
+
+## RESTful routes in Sinatra
+
+Extracted from [this README](https://learn.co/lessons/sinatra-restful-routes-readme)
+
+For the initialize class, [refer to this](https://itnext.io/removing-argument-order-dependencies-c5e2482ba208)
+
+---
+
+## Retro 21.06.2019
 
