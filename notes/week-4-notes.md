@@ -13,8 +13,9 @@
 Date | Project | progress
 --- | --- | ---
 17.06 | [Bookmark manager](https://github.com/aniasobo/bookmark-challenge) | [pairing with Rhys](https://github.com/aniasobo/portfolio/blob/master/feedback/feedback%20from%20Rhys.md); [progress note](https://github.com/aniasobo/portfolio/blob/master/challenges/bookmark-manager.md)
-19-21.06 | [Daily Diary app](https://github.com/aniasobo/daily-diary-app) | [progress note](https://github.com/aniasobo/portfolio/blob/master/challenges/daily-diary.md) 
+19-22.06 | [Daily Diary app](https://github.com/aniasobo/daily-diary-app) | [progress note](https://github.com/aniasobo/portfolio/blob/master/challenges/daily-diary.md) 
 20.06 | working on [Remy's Bookmark manager repo](https://github.com/IndecentDolphin/bookmark_manager/) | step #13 completed
+22-23.06 | Chitter challenge - note | weekend project
 
 ---  
 
@@ -60,10 +61,6 @@ end
 
 ---
 
-## Databases:
-
-- Model interacts with the db; one model per table (usually) - model becomes a collection that manages the data
-
 ## Misc tips and tricks:
 
 **[Removing DS_Store from a GitHub repo via .gitignore](https://stackoverflow.com/questions/107701/how-can-i-remove-ds-store-files-from-a-git-repository)**
@@ -75,6 +72,15 @@ find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
 ```
 
 run the above in terminal, then add .DS_Store to .gitignore & commit
+
+
+**Fix for killing postgres process that blocks the port**
+
+(a.k.a. FATAL database does not exist - because postgres can't look into its default 5432 port due to old processes running)
+
+```
+brew services stop postgresql
+```
 
 ---
 
@@ -111,6 +117,10 @@ Displaying all bookmarks in the bookmarks array in index:
 - [x] Model a simple domain using CRC cards
 - [x] Infer database structure from domain structure
 
+- Model interacts with the db; one model per table (usually) - model becomes a collection that manages the data
+- [This resource](https://guides.rubyonrails.org/association_basics.html#the-types-of-associations) has good info on associations between tables
+
+
 #### CRC:
 
 _Class_  
@@ -134,7 +144,7 @@ _Bike_
 
 | Responsibilities | Collaborators | 
 | --- | --- | 
-| working? | Bike | 
+| working? | Bike |  
 
 **Designing db structures:**
 
@@ -151,6 +161,7 @@ _Table: docking_stations_
 | --- | 
 | 1 | 
 
+
 ## RESTful routes in Sinatra
 
 Extracted from [this README](https://learn.co/lessons/sinatra-restful-routes-readme)
@@ -161,3 +172,4 @@ For the initialize class, [refer to this](https://itnext.io/removing-argument-or
 
 ## Retro 21.06.2019
 
+- don't be stuck - ask a coach (practice for being a junior in a dev team)
