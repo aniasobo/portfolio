@@ -49,10 +49,10 @@ end
 
 ```
 def self.create(player1, player2)
-	@game?
-		return @game
-	else
-		@game = Game.new(player1, player2)
+@game?
+return @game
+else
+@game = Game.new(player1, player2)
 end
 # checks if there's already a game running, sets instance to that currently running game
 ```
@@ -82,6 +82,8 @@ run the above in terminal, then add .DS_Store to .gitignore & commit
 brew services stop postgresql
 ```
 
+using kill process functions (saved in bash_profile) and killing processes by PID in Activity Monitor or Terminal will not help, because Postgres process immediately respawns its children.  
+
 ---
 
 ## ERB views
@@ -97,6 +99,9 @@ Displaying all bookmarks in the bookmarks array in index:
 <% end %>
 </ol>
 ```
+
+[Intro resource](https://www.stuartellis.name/articles/erb/)
+
 
 ---
 
