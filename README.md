@@ -31,8 +31,8 @@ Project repo | Notes | Pairing feedback
 [Battle challenge](https://github.com/aniasobo/poki-battle) | [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/battle.md) | pairing
 [RPS challenge](https://github.com/aniasobo/rps-challenge) | [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/rps.md) | individual
 [Bookmark manager](https://github.com/aniasobo/bookmark-challenge) | [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/bookmark-manager.md) | [pairing feedback from Rhys](https://github.com/aniasobo/portfolio/blob/master/feedback/feedback%20from%20Rhys.md)
-[Daily Diary App]() | [notes]() | individual work
-[Chitter Challenge]() | [notes]() | individual work
+[Daily Diary App](https://github.com/aniasobo/daily-diary-app) | [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/daily-diary.md) | individual work
+[Chitter Challenge](https://github.com/aniasobo/chitter-challenge) | [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/chitter.md) | individual work
 
 
 ## Processes & methodologies
@@ -48,4 +48,4 @@ Project repo | Notes | Pairing feedback
 - [Week 2 notes](https://github.com/aniasobo/portfolio/blob/master/notes/week-2-notes.md) - [w2 to dos](https://github.com/aniasobo/portfolio/blob/master/goals/week-2-todos.md)
 - [Week 3 notes](https://github.com/aniasobo/portfolio/blob/master/notes/week-3-notes.md) - [w3 to dos](https://github.com/aniasobo/portfolio/blob/master/goals/week-3-todos.md)
 - [Week 4 notes](https://github.com/aniasobo/portfolio/blob/master/notes/week-4-notes.md) - [w4 to dos](https://github.com/aniasobo/portfolio/blob/master/goals/week-4-todos.md)
-- [Week 5 notes]() - [w5 to dos]()
+- [Week 5 notes](https://github.com/aniasobo/portfolio/blob/master/notes/week-5-notes.md) - [w5 to dos](https://github.com/aniasobo/portfolio/blob/master/goals/week-5-todos.md)
