@@ -60,3 +60,5 @@ Daily Diary is an application to store daily diary entries, using Sinatra and Po
 - added a single entry by id view - not editable for now
 - I spent the most time working on the GET entries/:id route
 - I was blocked by database/port errors for a long time - possibly due to having rebooted my laptop?
+
+### Coach feedback: 

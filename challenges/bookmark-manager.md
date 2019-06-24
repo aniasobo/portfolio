@@ -6,8 +6,8 @@ _Makers Academy Week 4 challenge_
 
 - [x] Show a list of bookmarks
 - [x] Add new bookmarks
-- [ ] Delete bookmarks
-- [ ] Update bookmarks
+- [x] Delete bookmarks
+- [x] Update bookmarks
 - [ ] Comment on bookmarks
 - [ ] Tag bookmarks into categories
 - [ ] Filter bookmarks by tag
@@ -26,8 +26,8 @@ _Makers Academy Week 4 challenge_
 - [x] Setting up a Testing Environment
 - [x] Creating bookmarks
 - [x] Wrapping Database data in program objects
-- [ ] Deleting bookmarks
-- [ ] CRUD
+- [x] Deleting bookmarks
+- [x] CRUD
 - [ ] Extracting a Database Setup object
 - [ ] Validating bookmarks
 - [ ] One to Many Relationships

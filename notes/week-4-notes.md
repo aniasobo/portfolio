@@ -15,7 +15,7 @@ Date | Project | progress
 17.06 | [Bookmark manager](https://github.com/aniasobo/bookmark-challenge) | [pairing with Rhys](https://github.com/aniasobo/portfolio/blob/master/feedback/feedback%20from%20Rhys.md); [progress note](https://github.com/aniasobo/portfolio/blob/master/challenges/bookmark-manager.md)
 19-22.06 | [Daily Diary app](https://github.com/aniasobo/daily-diary-app) | [progress note](https://github.com/aniasobo/portfolio/blob/master/challenges/daily-diary.md) 
 20.06 | working on [Remy's Bookmark manager repo](https://github.com/IndecentDolphin/bookmark_manager/) | step #13 completed
-22-23.06 | Chitter challenge - note | weekend project
+22-23.06 | [Chitter challenge](https://github.com/aniasobo/chitter-challenge) - [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/chitter.md) | weekend project - basic completion
 
 ---  
 

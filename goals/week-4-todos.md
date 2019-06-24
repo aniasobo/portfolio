@@ -9,7 +9,7 @@
 ## Challenges:
 
 - [x] Afternoons - Bookmark Manager - pairing
-- [ ] Weekend - Chitter - individual
+- [x] Weekend - Chitter - individual
 
 ## Practicals:
 
@@ -25,15 +25,14 @@
 ## Misc:
 - [ ] start learning JS
 - [x] catch up with OO concepts from previous weeks by reading Practical Object-Oriented Design by Sandi Metz
-- [ ] setting up Travis on repos + the GitHub badge
+- [x] setting up Travis on repos + the GitHub badge
 - [x] learn about polymorphism & dependency injection with practicals
 - [x] finish the Daily Diary app to minimum viable product level
 - [ ] finish the RPS game
 - [x] learn about setting up test environment
 - [ ] for later: offer debug for someone stuck
 
-
-
+---
 
 
 
