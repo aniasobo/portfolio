@@ -11,7 +11,8 @@
 
 Date | Project | progress
 --- | --- | ---
-24.06 | Count app | 
+25.06 | [FizzBuzz in JS](https://github.com/aniasobo/fizzbuzzjs) | completed
+26.06 | [Airport App in JS](https://github.com/aniasobo/Airport-JS) | part done
 
 ## Code review:
 
