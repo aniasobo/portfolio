@@ -62,3 +62,10 @@ Daily Diary is an application to store daily diary entries, using Sinatra and Po
 - I was blocked by database/port errors for a long time - possibly due to having rebooted my laptop?
 
 ### Coach feedback: 
+
+_feedback from Sophie:_  
+
+> Not using REST-ful routes in the controller, specifically for creating new diary entries.
+> Repetition in the code - can you refactor this to reduce the amount of repetition?
+> Only using a single type, so difficult to comment on the use of a relational database (does not currently demonstrate one-to-many or many-to-many relationships)
+> Only picking up on opportunities for improvement, approach to feature testing and overall implementation looks like you're on the right track.
