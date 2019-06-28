@@ -33,6 +33,8 @@ Project repo | Notes | Pairing feedback
 [Bookmark manager](https://github.com/aniasobo/bookmark-challenge) | [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/bookmark-manager.md) | [pairing feedback from Rhys](https://github.com/aniasobo/portfolio/blob/master/feedback/feedback%20from%20Rhys.md)
 [Daily Diary App](https://github.com/aniasobo/daily-diary-app) | [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/daily-diary.md) | individual work
 [Chitter Challenge](https://github.com/aniasobo/chitter-challenge) | [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/chitter.md) | individual work
+[Airport App in JS](https://github.com/aniasobo/Airport-JS) | rewrite of a Ruby app | pairing  
+[Thermostat](https://github.com/aniasobo/thermostat) | notes | pairing 
 
 
 ## Processes & methodologies

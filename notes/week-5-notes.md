@@ -2,8 +2,8 @@
 
 ## Goals:
 
-- [ ] Test drive a simple front-end web app with Javascript
-- [ ] Follow an effective process for learning a new language
+- [x] Test drive a simple front-end web app with Javascript
+- [x] Follow an effective process for learning a new language
 
 ---
 
@@ -13,6 +13,8 @@ Date | Project | progress
 --- | --- | ---
 25.06 | [FizzBuzz in JS](https://github.com/aniasobo/fizzbuzzjs) | completed
 26.06 | [Airport App in JS](https://github.com/aniasobo/Airport-JS) | part done
+26-28.06 | [Thermostat](https://github.com/aniasobo/thermostat) | part done
+
 
 ## Code review:
 

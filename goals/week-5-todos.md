@@ -2,23 +2,23 @@
 
 ## Goals:
 
-- [ ] Test drive a simple front-end web app with Javascript
-- [ ] Follow an effective process for learning a new language
+- [x] Test drive a simple front-end web app with Javascript
+- [x] Follow an effective process for learning a new language
 
 ### JS goals:
 
-- [ ] Can you read and write JavaScript syntax?
-- [ ] Can you understand the rules that govern the behaviour of the this keyword?
+- [x] Can you read and write JavaScript syntax?
+- [x] Can you understand the rules that govern the behaviour of the this keyword?
 - [ ] Can you follow the flow of an Ajax request and response?
-- [ ] Can you follow the flow of control through code that uses callbacks?
-- [ ] Can you encapsulate behaviour in JavaScript?
-- [ ] Can you get visibility effectively in JavaScript?
-- [ ] Can you TDD in JavaScript?
-- [ ] Can you follow the flow of control over the whole web app cycle?
+- [x] Can you follow the flow of control through code that uses callbacks?
+- [x] Can you encapsulate behaviour in JavaScript?
+- [x] Can you get visibility effectively in JavaScript?
+- [x] Can you TDD in JavaScript?
+- [x] Can you follow the flow of control over the whole web app cycle?
 
 ## Challenges
 
-- [ ] Afternoons - Thermostat
+- [x] Afternoons - Thermostat
 - [ ] Weekend - Bowling
 - [x] Fizzbuzz JS rewrite - pairing
 - [x] Airport JS rewrite - pairing
@@ -35,8 +35,8 @@
 
 - [x] Encapsulation with the constructor & prototype pattern
 - [x] Following the flow and getting visibility
-- [ ] Following the Ajax request/response cycle
-- [ ] Callbacks and following the flow of control
+- [x] Following the Ajax request/response cycle
+- [x] Callbacks and following the flow of control
 
 ### Misc to do:
 
