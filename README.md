@@ -34,7 +34,7 @@ Project repo | Notes | Pairing feedback
 [Daily Diary App](https://github.com/aniasobo/daily-diary-app) | [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/daily-diary.md) | individual work
 [Chitter Challenge](https://github.com/aniasobo/chitter-challenge) | [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/chitter.md) | individual work
 [Airport App in JS](https://github.com/aniasobo/Airport-JS) | rewrite of a Ruby app | pairing  
-[Thermostat](https://github.com/aniasobo/thermostat) | notes | pairing 
+[Thermostat](https://github.com/aniasobo/thermostat) | [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/thermostat.md) | pairing 
 
 
 ## Processes & methodologies

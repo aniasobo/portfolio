@@ -13,7 +13,7 @@ Date | Project | progress
 --- | --- | ---
 25.06 | [FizzBuzz in JS](https://github.com/aniasobo/fizzbuzzjs) | completed
 26.06 | [Airport App in JS](https://github.com/aniasobo/Airport-JS) | part done
-26-28.06 | [Thermostat](https://github.com/aniasobo/thermostat) | part done
+26-28.06 | [Thermostat](https://github.com/aniasobo/thermostat) | [part done](https://github.com/aniasobo/portfolio/blob/master/challenges/thermostat.md)
 
 
 ## Code review:
