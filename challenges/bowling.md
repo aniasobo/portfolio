@@ -1,6 +1,6 @@
 # Bowling challenge - 29-30.06.2019
 
-1. Set up an npm project before installing npm packages:
+1. Set up an npm project before installing npm packages. In your project directory run:
 
 ```
 npm init
@@ -23,7 +23,7 @@ This will create a '.eslintrc.js' file in the root directory, which needs to be 
 
 - [this Airbnb base style guide](https://www.npmjs.com/package/eslint-config-airbnb-base)
 
-add this inside your .eslintrc.js:
+Once you've installed the plugin, add this inside your .eslintrc.js:
 
 ```
 "extends": "airbnb-base",
