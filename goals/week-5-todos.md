@@ -9,7 +9,7 @@
 
 - [x] Can you read and write JavaScript syntax?
 - [x] Can you understand the rules that govern the behaviour of the this keyword?
-- [ ] Can you follow the flow of an Ajax request and response?
+- [x] Can you follow the flow of an Ajax request and response?
 - [x] Can you follow the flow of control through code that uses callbacks?
 - [x] Can you encapsulate behaviour in JavaScript?
 - [x] Can you get visibility effectively in JavaScript?
@@ -41,6 +41,9 @@
 ### Misc to do:
 
 - [ ] apply Sophie's feedback to refactor the Daily Diary app (especially the RESTful routes part)
+- [ ] do 1-2 practicals
+- [ ] API - add to thermostat
+- [x] Ajax - research
 
 
 
@@ -55,5 +58,5 @@
 # Lifetime total hours of coding:
 
 ```
-512
+542
 ```

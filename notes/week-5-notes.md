@@ -14,6 +14,7 @@ Date | Project | progress
 25.06 | [FizzBuzz in JS](https://github.com/aniasobo/fizzbuzzjs) | completed
 26.06 | [Airport App in JS](https://github.com/aniasobo/Airport-JS) | part done
 26-28.06 | [Thermostat](https://github.com/aniasobo/thermostat) | [part done](https://github.com/aniasobo/portfolio/blob/master/challenges/thermostat.md)
+29-30.06 | [Bowling]() | progress note
 
 
 ## Code review:
@@ -229,3 +230,81 @@ function arrayRemove(arr, value) {
 1. Lodash
 2. Underscore
 3. Ramda (for functional programming)
+4. JQuery
+
+
+! + tab in VSC = generates the html template head
+
+### JQuery:
+
+1. download the script or grab one off a CDN. Load it in index.html.
+
+Download:
+
+```
+<script src="js/jquery.min.js"></script>
+```
+
+CDN:
+
+```
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+```
+
+2. only execute functions when the DOM is loaded:
+
+```
+$(document).ready(function() { })
+```
+
+this wraps the JQuery document.
+
+3. JQuery selector with an event listener:
+
+```
+$('element').on('event', function() {
+
+})
+
+// Or:
+
+$('element').click(function() { })
+
+// also callbacks:
+
+$('#some-heading').click(function() {
+  // this function is the callback!
+})
+```
+
+events can be clicks, scrolls, typing and other forms of interaction within the browser.
+
+4. Set a new object:
+
+```
+var thermostat = new Thermostat();
+```
+
+5. to DRY out the code:
+
+```
+function updateTemperature() {
+  $('#h1').text(`Current temperature: ${term._temperature}`);
+}
+
+// to call it:
+
+$(document).ready(function() {
+  var thermostat = new Thermostat();
+  updateTemperature();
+
+  $('#temp-up').click(function() {
+    thermostat.increaseTemperature();
+    updateTemperature();
+  });
+  
+  function updateTemperature() {
+    $('#temperature').text(thermostat.temperature);
+  };
+});
+```
