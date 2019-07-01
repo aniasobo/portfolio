@@ -35,7 +35,8 @@ Project repo | Notes | Pairing feedback
 [Chitter Challenge](https://github.com/aniasobo/chitter-challenge) | [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/chitter.md) | individual work
 [Airport App in JS](https://github.com/aniasobo/Airport-JS) | rewrite of the [Ruby app](https://github.com/aniasobo/airport_challenge) | pairing  
 [Thermostat](https://github.com/aniasobo/thermostat) | [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/thermostat.md) | pairing 
-Bowling | notes | individual work
+[Bowling](https://github.com/aniasobo/bowling-challenge) | [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/bowling.md) | individual work
+[MakersBnB](https://github.com/carlfjones/MakersBnB) | team project | [progress note](https://github.com/aniasobo/portfolio/blob/master/challenges/makersbnb.md)
 
 
 ## Processes & methodologies
@@ -52,3 +53,4 @@ Bowling | notes | individual work
 - [Week 3 notes](https://github.com/aniasobo/portfolio/blob/master/notes/week-3-notes.md) - [w3 to dos](https://github.com/aniasobo/portfolio/blob/master/goals/week-3-todos.md)
 - [Week 4 notes](https://github.com/aniasobo/portfolio/blob/master/notes/week-4-notes.md) - [w4 to dos](https://github.com/aniasobo/portfolio/blob/master/goals/week-4-todos.md)
 - [Week 5 notes](https://github.com/aniasobo/portfolio/blob/master/notes/week-5-notes.md) - [w5 to dos](https://github.com/aniasobo/portfolio/blob/master/goals/week-5-todos.md)
+- [Week 6 notes](https://github.com/aniasobo/portfolio/blob/master/notes/week-6-notes.md) - [w6 to dos](https://github.com/aniasobo/portfolio/blob/master/goals/week-6-todos.md)
