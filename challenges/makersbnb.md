@@ -4,6 +4,9 @@ _team:_
 
 Carl, Chris, Remzilla
 
+_stand ups_ 10:30  
+_retros_ 17:00  
+
 
 ## Development workflow
 
@@ -15,8 +18,18 @@ Carl, Chris, Remzilla
 
 ## Project setup  
 
-- [ ] One member in your group, create a GitHub repo for your Makersbnb project.
-- [ ] Add the other members of your group as collaborators.
+- [x] One member in your group, create a GitHub repo for your Makersbnb project.
+- [x] Add the other members of your group as collaborators.
+- [ ] Person who adds pull request merges after feedback from team
+
+## TECH STACK:
+
+- Sinatra app 
+- PostGres db  
+- JS interface
+- CSS styles
+- hosted on Heroku
+
 
 ### Add a README that has:
 
@@ -29,9 +42,22 @@ Carl, Chris, Remzilla
 
 ### Misc to do:
 
-- [ ] team slack channel
-- [ ] agree on standup/retro routine
+- [x] team slack channel
+- [x] agree on standup/retro routine
 - [ ] plan work with kanban
+- [ ] set up a CI
+- [x] GitHub repo
+
+
+### Merge process:
+
+1. Make sure your local master is up to date - git pull before working every time
+2. Create a local branch, once it passes tests locally...
+3. ...push your branch to GitHub
+4. Create a pull request from your master to master-master
+5. CI runs on master
+6. deploy to Heroku from master
+
 
 
 ## Resources:
