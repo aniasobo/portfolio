@@ -14,7 +14,7 @@ Date | Project | progress
 25.06 | [FizzBuzz in JS](https://github.com/aniasobo/fizzbuzzjs) | completed
 26.06 | [Airport App in JS](https://github.com/aniasobo/Airport-JS) | part done
 26-28.06 | [Thermostat](https://github.com/aniasobo/thermostat) | [part done](https://github.com/aniasobo/portfolio/blob/master/challenges/thermostat.md)
-29-30.06 | [Bowling]() | progress note
+29-30.06 | [Bowling](https://github.com/aniasobo/bowling-challenge) | [progress note](https://github.com/aniasobo/portfolio/blob/master/challenges/bowling.md)
 
 
 ## Code review:
@@ -233,8 +233,6 @@ function arrayRemove(arr, value) {
 4. JQuery
 
 
-! + tab in VSC = generates the html template head
-
 ### JQuery:
 
 1. download the script or grab one off a CDN. Load it in index.html.
@@ -308,3 +306,47 @@ $(document).ready(function() {
   };
 });
 ```
+
+### Closures:
+
+```
+function makeAdder(x) {
+  return function(y) {
+    return x + y;
+  };
+}
+
+var add5 = makeAdder(5);
+var add10 = makeAdder(10);
+
+console.log(add5(2));  // 7
+console.log(add10(2)); // 12
+```
+
+add5 and add10 are closures - they share the same function body definition but store different lexical environments.
+
+In add5's lexical environment x is 5; in add10's, it's 10.
+
+Closures let you associate some data (ie the lexical environment) with a function that makes an operation on it.
+
+Closure can be used analogously to OO-style Object with only a single method (the add5 object only adds integers to 5).
+
+Closures are useful for event-based functions, such as this one that converts rem/em font sizes to pixel sizes:
+
+```
+function makeSizer(size) {
+  return function() {
+    document.body.style.fontSize = size + 'px';
+  };
+}
+
+var size12 = makeSizer(12);
+var size14 = makeSizer(14);
+var size16 = makeSizer(16);
+
+document.getElementById('size-12').onclick = size12;
+document.getElementById('size-14').onclick = size14;
+document.getElementById('size-16').onclick = size16;
+```
+
+One way to make a method private in JS is to put it in a closure.

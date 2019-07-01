@@ -19,7 +19,7 @@
 ## Challenges
 
 - [x] Afternoons - Thermostat
-- [ ] Weekend - Bowling
+- [x] Weekend - Bowling
 - [x] Fizzbuzz JS rewrite - pairing
 - [x] Airport JS rewrite - pairing
 
@@ -27,7 +27,7 @@
 
 - [ ] Learning a new language by translation
 - [ ] JS Objects & Prototypes
-- [ ] Closures
+- [x] Closures
 - [x] Count app
 - [x] Javascripting 
 
@@ -41,7 +41,7 @@
 ### Misc to do:
 
 - [ ] apply Sophie's feedback to refactor the Daily Diary app (especially the RESTful routes part)
-- [ ] do 1-2 practicals
+- [x] do 1-2 practicals
 - [ ] API - add to thermostat
 - [x] Ajax - research
 

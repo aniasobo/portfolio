@@ -1,12 +1,14 @@
 # Bowling challenge - 29-30.06.2019
 
+## Setup:
+
 1. Set up an npm project before installing npm packages. In your project directory run:
 
 ```
 npm init
 ```
 
-2. npm will install a package.json file - this is similar to Gemfile
+2. npm will install a package.json file - this is somewhat similar to Gemfile
 3. add ESLint to your project:
 
 ```
@@ -70,3 +72,15 @@ eslint file.js
 }
 ```
 
+7. Add JQuery to project (current: jquery-3.4.1.min.js)
+
+## Game logic:
+
+Two classes: Scoreboard/game and Frame, or
+Three classes: Scoreboard, Game and Frame
+
+Game - runs game, calculates points, polices frames so there's no more than 10, keeps track of bonuses
+Scoreboard - updates points and back points with each closed frame, communicates with interface
+Frame - holds frame info: number, roll one, roll two, strike, spare, and possibly points
+
+Ed's hint: start with a perfect gutter game - set that up, add unit and feature tests, escalate
