@@ -20,13 +20,13 @@ _retros_ 17:00
 
 - [x] One member in your group, create a GitHub repo for your Makersbnb project.
 - [x] Add the other members of your group as collaborators.
-- [ ] Person who adds pull request merges after feedback from team
+- [x] Person who adds pull request merges after feedback from team
 
 ## TECH STACK:
 
 - Sinatra app 
 - PostGres db  
-- JS interface
+- JS/JQuery interface
 - CSS styles
 - hosted on Heroku
 
@@ -44,24 +44,55 @@ _retros_ 17:00
 
 - [x] team slack channel
 - [x] agree on standup/retro routine
-- [ ] plan work with kanban
+- [x] plan work with kanban
 - [ ] set up a CI
 - [x] GitHub repo
 
 
 ### Merge process:
 
-1. Make sure your local master is up to date - git pull before working every time
-2. Create a local branch, once it passes tests locally...
-3. ...push your branch to GitHub
-4. Create a pull request from your master to master-master
+1. Make sure your local master is up to date - 'git pull' before working every time
+2. Create a local branch, once it passes tests locally... 'git checkout -b [name_of_your_new_branch]'  
+3. Make sure you're on the right branch ' git branch -a'
+4. add a new remote to branch 'git remote add [name_of_your_remote] name_of_your_new_branch'
+3. ...push your branch to GitHub 'git push origin [name_of_your_new_branch]'  
+4. Create a pull request from your master to master-master??
+5. remember to switch back to master and delete branch
 5. CI runs on master
 6. deploy to Heroku from master
 
+--[instructions](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches) --
 
+## Backend:
+
+dbname: makersbnb
+test db: makersbnb_test
+
+tables: users, spaces
+
+to do:
+
+- [ ] test database helper - method that runs before each Rspec test and clears the test database
+- [x] add to README: create both databases (after bundle)
+
+
+## Database on Heroku:
+
+- add Postgres plugin to heroku 
+- get database details (name, host, port, username, password) from heroku dashboard, [add in db connection]((https://www.rubydoc.info/gems/pg/PG%2FConnection:initialize)) like so:
+
+```
+PG::Connection.new("ec2-50-16-197-244.compute-1.amazonaws.com", 5432, nil, nil, "d37k5fffpt81gq", "mwtacjgvugnztj", "53332d96369b96d480139e1fd78566a94eb886172ed0ce26bab98bba31067a57")
+```
+
+## Debugging routes in controller:
+
+- does the route start with a '/'?
+- 
 
 ## Resources:
 
 [Specifications](https://github.com/makersacademy/course/blob/master/makersbnb/specification_and_mockups.md)  
 [Mock-ups](https://github.com/makersacademy/course/blob/master/makersbnb/makers_bnb_images/MakersBnB_mockups.pdf)  
 [Course guidance](https://github.com/makersacademy/course/tree/master/makersbnb#development-workflow)  
+[PG Connect](https://www.rubydoc.info/gems/pg/PG%2FConnection:initialize)

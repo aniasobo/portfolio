@@ -20,14 +20,20 @@
 
 ## Challenges:
 
-- [ ] MakersBnB - Afternoons - Teams
+- [x] MakersBnB - Afternoons - Teams
 - [ ] Bowling again - Weekend - Individual
 
 
 ## Misc:
 
-- [ ] learn to use kanban
+- [x] learn to use kanban
 - [ ] attend a process workshop
+- [ ] look at how the Count app implements Ajax requests 
+- [ ] finally look into Travis CI setup
+- [ ] CI for a Heroku app?
+- [ ] look into Rake & Rakefile
+- [x] deploying an app with a db on Heroku
+- [ ] get more familiar with Node.js
 
 
 
@@ -40,5 +46,5 @@
 # Lifetime total hours of coding:
 
 ```
-555
+568
 ```
