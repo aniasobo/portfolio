@@ -84,3 +84,50 @@ Scoreboard - updates points and back points with each closed frame, communicates
 Frame - holds frame info: number, roll one, roll two, strike, spare, and possibly points
 
 Ed's hint: start with a perfect gutter game - set that up, add unit and feature tests, escalate
+
+---
+
+# Attempt 2:
+
+in Count app:
+
+**in CountModel.js**
+
+function addSum() takes an argument and adds it to this._count;
+
+added a setter and accessor for local variable _score;
+
+CountModel needs to be used as it holds all the functions!!
+
+**in app.rb**
+
+score variable to store score the way the count variable holds the count ???
+stored in session as score:
+
+**ScoreController.js**
+
+a copy of CountController with the setup for this button, hopefully functional;
+_setupOneButtonToUpdateScore();
+_setupTwoButtonToUpdateScore();
+_setupThreeButtonToUpdateScore();
+
+**ScoreView.js**
+
+a copy of CountView that creates the ScoreView object for display;
+
+pass to app.rb ??
+
+js files used for Score:
+- CountModel
+- ScoreController
+- ScoreView
+- index.js
+- ScorePersister (has get and set functions, not to be confused with the setScore and set functions of the CountModel)
+
+[good solution to study](https://github.com/saypop/bowling-challenge)
+
+
+
+
+
+
