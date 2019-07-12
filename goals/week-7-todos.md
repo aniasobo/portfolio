@@ -2,10 +2,9 @@
 
 ## Goals:
 
-- [ ] Build a front-end app in Javascript
-- [ ] Work competently in Javascript
-- [ ] Reason about asynchronous behaviour in Javascript
-- [ ] Write a front-end, single-application app using only pure JS
+- [x] Write a front-end, single-application app using only pure JS
+- [x] Work competently in Javascript
+- [x] Reason about asynchronous behaviour in Javascript
 
 
 ## Challenges:
@@ -15,16 +14,16 @@
 
 ### Challenge-related goals:
 
-- [ ] Draw the diagram on Tuesday.
-- [ ] Each morning, update the diagram with your latest understanding.
+- [x] Draw the diagram on Tuesday.
+- [x] Each morning, update the diagram with your latest understanding.
 
 
 ## Concepts
 - [ ] Frontend, single page web apps.
-- [ ] Events and event handlers.
-- [ ] Manipulating the Document Object Model (DOM).
-- [ ] Ajax.
-- [ ] Frontend templating.
+- [x] Events and event handlers.
+- [x] Manipulating the Document Object Model (DOM).
+- [x] [Ajax.](https://www.w3schools.com/js/js_ajax_intro.asp)
+- [x] Frontend templating.
 - [ ] Frontend routing.
 
 
@@ -32,13 +31,13 @@
 
 - [ ] [JS Objects & Prototypes](https://hackmd.io/nb1VZarCTGicD6dMOo43Ww)
 - [x] [Closures](https://hackmd.io/cIFsMAqISHqVHN_-p9hY0Q)
-- [ ] [Reading beyond your level](https://hackmd.io/F-pmnp3hRhePddmf3mnKGw)
+- [x] [Reading beyond your level](**https://hackmd.io/F-pmnp3hRhePddmf3mnKGw**)
 - [ ] [Reasoning about JS using frames](https://hackmd.io/cnH7BqucQ7yzqnLiqmizXw)
 
 
 ## Resources:
 
-- [ ] [Technical Learning Resources](https://airtable.com/shrfvOQf2zZNGUhk8/tblokmw6yNUO75ge6?blocks=hide)
+- [x] [Technical Learning Resources](https://airtable.com/shrfvOQf2zZNGUhk8/tblokmw6yNUO75ge6?blocks=hide)
 
 
 ## Skills workshops:
@@ -50,6 +49,22 @@
 
 - [ ] attend a process workshop 
 - [ ] Node.js
-- [ ] get a coach to explain the Count app code line by line (add comments where things are murky)
+- [x] get a coach to explain the Count app code line by line (add comments where things are murky)
+- [ ] go through the code review notes for Bowling challenge
 - [ ] look into course materials for JS resources
+- [x] [watch this video about JS promises](https://www.youtube.com/watch?v=QujWZUYpeNk)
 
+
+
+
+
+
+
+
+---
+
+# Lifetime total hours of coding:
+
+```
+592
+```
