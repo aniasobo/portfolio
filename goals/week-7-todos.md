@@ -48,7 +48,7 @@
 ## Misc:
 
 - [ ] attend a process workshop 
-- [ ] Node.js
+- [x] Node.js
 - [x] get a coach to explain the Count app code line by line (add comments where things are murky)
 - [ ] go through the code review notes for Bowling challenge
 - [ ] look into course materials for JS resources
@@ -66,5 +66,5 @@
 # Lifetime total hours of coding:
 
 ```
-592
+620
 ```

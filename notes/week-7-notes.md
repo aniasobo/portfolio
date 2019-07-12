@@ -18,7 +18,7 @@ Date | Project | progress
 
 
 
-### JS module pattern
+## JS module pattern
 
 Similar to an IIFE but with export code around:
 
@@ -66,9 +66,7 @@ The variables that don't get included in the exports stay hidden/private.
 [This keyword explainer](https://itnext.io/the-this-keyword-in-javascript-demystified-c389c92de26d)
 
 
-### Promises tutorial
-
-[LINK]() 
+## Promises tutorial
 
 `try-catch` = equivalent of Ruby `begin-rescue` - not a good way to handle errors; better - using JS promises:
 
@@ -98,6 +96,24 @@ $.ajax('file.json').done(function(){
 
 `then` is the method that denotes that the function is a promise; first argument is the success, second is the fail. Called on a new Promise() object. (does it have to be created each time??)
 
+[Promises: states and fates](https://github.com/domenic/promises-unwrapping/blob/master/docs/states-and-fates.md):  
+
+**The possible states (mutually exclusive):**
+
+1. fulfilled
+2. rejected
+3. pending  
+
+**The possible fates (mutually exclusive):**
+
+1. resolved
+2. unresolved
+
+> A promise's state is reflected in its `[[PromiseState]]` internal slot.
+
+> A promise's fate is stored implicitly as part of its "resolving functions."
+
+
 ### Reading beyond your level practical:
 
 **Steps to understand documentation:**
@@ -110,7 +126,8 @@ $.ajax('file.json').done(function(){
 - sets the context of `this` to the object created
 - links the constructor of the object created to its instances
 - the defined object's functions won't be accessible without an instance created with `new`
-- 
+
+**Example - JS closures**
 
 
 ## JS error handling
@@ -233,3 +250,4 @@ function Counter() {
 }
 ```
 
+[preventDefault() on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)

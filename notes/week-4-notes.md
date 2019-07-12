@@ -73,6 +73,8 @@ find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
 
 run the above in terminal, then add .DS_Store to .gitignore & commit
 
+[alternative way to do this](http://www.codeblocq.com/2016/01/Untrack-files-already-added-to-git-repository-based-on-gitignore/)
+
 
 **Fix for killing postgres process that blocks the port**
 
