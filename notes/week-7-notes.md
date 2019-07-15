@@ -12,8 +12,9 @@
 
 Date | Project | progress
 --- | --- | ---
-08-09.07 | [Notes App](https://github.com/rachjgriff/note-app) | [progress note]()
-10-12.07 | [Notes App - Phase 2](https://github.com/aniasobo/notes-app) | [progress note]()
+08-09.07 | [Notes App](https://github.com/rachjgriff/note-app) | [progress note](https://github.com/aniasobo/portfolio/blob/master/challenges/notes.md)
+10-12.07 | [Notes App - Phase 2](https://github.com/aniasobo/notes-app) | [progress note](https://github.com/aniasobo/portfolio/blob/master/challenges/notes.md)
+13-14.07 | [News summary app](https://github.com/aniasobo/news-summary-challenge) | notes
 
 
 

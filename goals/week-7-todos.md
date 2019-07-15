@@ -19,7 +19,7 @@
 
 
 ## Concepts
-- [ ] Frontend, single page web apps.
+- [x] Frontend, single page web apps.
 - [x] Events and event handlers.
 - [x] Manipulating the Document Object Model (DOM).
 - [x] [Ajax.](https://www.w3schools.com/js/js_ajax_intro.asp)
@@ -50,8 +50,8 @@
 - [ ] attend a process workshop 
 - [x] Node.js
 - [x] get a coach to explain the Count app code line by line (add comments where things are murky)
-- [ ] go through the code review notes for Bowling challenge
-- [ ] look into course materials for JS resources
+- [x] go through the code review notes for Bowling challenge
+- [x] look into course materials for JS resources
 - [x] [watch this video about JS promises](https://www.youtube.com/watch?v=QujWZUYpeNk)
 
 
@@ -66,5 +66,5 @@
 # Lifetime total hours of coding:
 
 ```
-620
+633
 ```
