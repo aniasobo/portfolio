@@ -2,10 +2,9 @@
 
 ## Goals:
 
-- [ ] Build a front-end app in Javascript
-- [ ] Work competently in Javascript
-- [ ] Reason about asynchronous behaviour in Javascript
-- [ ] Write a front-end, single-application app using only pure JS
+- [x] Build a front-end app in Javascript
+- [x] Work competently in Javascript
+- [x] Reason about asynchronous behaviour in Javascript
 
 ---
 

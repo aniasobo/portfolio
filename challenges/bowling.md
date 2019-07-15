@@ -126,7 +126,12 @@ js files used for Score:
 
 [good solution to study](https://github.com/saypop/bowling-challenge)
 
+---
 
+## Continuing where I left off:
+
+3rd attempt at the Bowling scoreboard challenge. Resource:
+[http://www.butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata](http://www.butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata)  
 
 
 

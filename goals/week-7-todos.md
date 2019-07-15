@@ -9,8 +9,8 @@
 
 ## Challenges:
 
-- [ ] Notes app - Afternoons 
-- [ ] Weekend: either News summary or Chitter API
+- [x] Notes app - Afternoons 
+- [x] Weekend: either News summary or Chitter API
 
 ### Challenge-related goals:
 
@@ -29,7 +29,7 @@
 
 ## Practicals:
 
-- [ ] [JS Objects & Prototypes](https://hackmd.io/nb1VZarCTGicD6dMOo43Ww)
+- [x] [JS Objects & Prototypes](https://hackmd.io/nb1VZarCTGicD6dMOo43Ww)
 - [x] [Closures](https://hackmd.io/cIFsMAqISHqVHN_-p9hY0Q)
 - [x] [Reading beyond your level](**https://hackmd.io/F-pmnp3hRhePddmf3mnKGw**)
 - [ ] [Reasoning about JS using frames](https://hackmd.io/cnH7BqucQ7yzqnLiqmizXw)
@@ -42,7 +42,7 @@
 
 ## Skills workshops:
 
-- [ ] JavaScript module pattern
+- [x] JavaScript module pattern
 
 
 ## Misc:
