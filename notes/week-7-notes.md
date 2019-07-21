@@ -17,6 +17,7 @@ Date | Project | progress
 13-14.07 | [News summary app](https://github.com/aniasobo/news-summary-challenge) | notes
 
 
+---  
 
 ## JS module pattern
 
