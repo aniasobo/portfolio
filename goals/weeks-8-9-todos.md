@@ -34,11 +34,9 @@
 
 ## Misc:
 
-- [ ] go through the Bowling scoreboard kata walkthrough 
-- [ ] CodeCademy & Udemy - watch JS/DOM manipulation/backend JS tutorials
 - [x] set up zsh
-
-
+- [x] look through team code & spec
+- [x] Wes Boss JS30 course
 
 
 
@@ -47,5 +45,5 @@
 # Lifetime total hours of coding:
 
 ```
-672
+701
 ```

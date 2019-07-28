@@ -249,10 +249,9 @@ added: `release: bundle exec rake db:migrate`
 
 - [x] add DS store to gitignore and unstage
 
+---
 
-## Sprint 2 CSS day
-
-**the asset pipeline**
+## the asset pipeline
 
 WebPack - will come by default with Rails 6;
 
@@ -315,4 +314,13 @@ adding a custom stylesheet: in assets/stylesheets, named like: `erbexample.css.e
 
 ## Week 2 TO DO:
 
-add FactoryBot - good [cheatsheet](https://devhints.io/factory_bot)
+- [ ] add FactoryBot - good [cheatsheet](https://devhints.io/factory_bot)
+
+
+`bin/rails routes` to see all your routes (routing debugging)
+
+
+## Comments to dos:
+
+- [x] display user name in comment instead of Anonymous
+- [x] style the new comment form better

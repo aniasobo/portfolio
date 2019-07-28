@@ -14,8 +14,8 @@ Course notes, record of progress, course goals and how I meet them.
 
 #### 2. I am equipped for long term growth.
 
-- [ ] I manage my own wellbeing.
-- [ ] I can learn anything.
+- [x] I manage my own wellbeing.
+- [x] I can learn anything.
 
 #### 3. I help my teams succeed.
 
@@ -37,6 +37,8 @@ Project repo | Notes | Pairing feedback
 [Thermostat](https://github.com/aniasobo/thermostat) | [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/thermostat.md) | pairing 
 [Bowling](https://github.com/aniasobo/bowling-challenge) | [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/bowling.md) | individual work
 [MakersBnB](https://github.com/carlfjones/MakersBnB) | team project | [progress note](https://github.com/aniasobo/portfolio/blob/master/challenges/makersbnb.md)
+[Acebook](https://github.com/bengscott2/acebook-livewire) | team engineering project | [project notes](https://github.com/aniasobo/portfolio/blob/master/challenges/acebook.md) 
+[Instagram clone](https://github.com/aniasobo/instagram-challenge) | individual work | [project notes](https://github.com/aniasobo/portfolio/blob/master/challenges/instagram.md)
 
 
 ## Processes & methodologies
@@ -45,6 +47,9 @@ Project repo | Notes | Pairing feedback
 - TDD (add link to screen recording)
 - Domain modelling (add a UML diagram)
 - Database design
+- Pair programming
+- Agile, SCRUM, Kanban
+
 
 ## Weekly notes & learning progress
 
@@ -54,3 +59,5 @@ Project repo | Notes | Pairing feedback
 - [Week 4 notes](https://github.com/aniasobo/portfolio/blob/master/notes/week-4-notes.md) - [w4 to dos](https://github.com/aniasobo/portfolio/blob/master/goals/week-4-todos.md)
 - [Week 5 notes](https://github.com/aniasobo/portfolio/blob/master/notes/week-5-notes.md) - [w5 to dos](https://github.com/aniasobo/portfolio/blob/master/goals/week-5-todos.md)
 - [Week 6 notes](https://github.com/aniasobo/portfolio/blob/master/notes/week-6-notes.md) - [w6 to dos](https://github.com/aniasobo/portfolio/blob/master/goals/week-6-todos.md)
+- Week 7 notes - w7 to dos
+- Weeks 8-9 - team engineering project - notes - todos

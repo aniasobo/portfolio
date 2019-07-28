@@ -86,6 +86,14 @@ journey_class_double = double :journey, complete: true, fare: 1
 ```
 
 
+**to make something an instance of tested class**
+
+```
+describe Thing do
+ subject(:thing) {described_class.new }
+  # describe blocks follow
+end
+```
 
 ### To use SimpleCov
 
