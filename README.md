@@ -5,12 +5,12 @@ Course notes, record of progress, course goals and how I meet them.
 ## Course goals
 
 #### 1. I can make anything.
-- [ ] I can TDD anything.
+- [x] I can TDD anything.
 - [ ] I can program fluently.
-- [ ] I can debug anything.
-- [ ] I can Model anything.
+- [x] I can debug anything.
+- [x] I can Model anything.
 - [ ] I can refactor anything.
-- [ ] I can solve problems methodically.
+- [x] I can solve problems methodically.
 
 #### 2. I am equipped for long term growth.
 
@@ -59,5 +59,5 @@ Project repo | Notes | Pairing feedback
 - [Week 4 notes](https://github.com/aniasobo/portfolio/blob/master/notes/week-4-notes.md) - [w4 to dos](https://github.com/aniasobo/portfolio/blob/master/goals/week-4-todos.md)
 - [Week 5 notes](https://github.com/aniasobo/portfolio/blob/master/notes/week-5-notes.md) - [w5 to dos](https://github.com/aniasobo/portfolio/blob/master/goals/week-5-todos.md)
 - [Week 6 notes](https://github.com/aniasobo/portfolio/blob/master/notes/week-6-notes.md) - [w6 to dos](https://github.com/aniasobo/portfolio/blob/master/goals/week-6-todos.md)
-- Week 7 notes - w7 to dos
-- Weeks 8-9 - team engineering project - notes - todos
+- [Week 7 notes](https://github.com/aniasobo/portfolio/blob/master/notes/week-7-notes.md) - [w7 to dos](https://github.com/aniasobo/portfolio/blob/master/goals/week-7-todos.md)
+- [Weeks 8-9 - team engineering project - notes](https://github.com/aniasobo/portfolio/blob/master/notes/weeks-8-9-notes.md) - [todos](https://github.com/aniasobo/portfolio/blob/master/goals/weeks-8-9-todos.md)
