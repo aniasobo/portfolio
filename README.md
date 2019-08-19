@@ -38,18 +38,6 @@ Project repo | Notes | Pairing feedback
 
 
 
-## Processes & methodologies
-
-- Debugging (add link to screen recording)
-- TDD (add link to screen recording)
-- Domain modelling (add a UML diagram)
-- Database design
-- Pair programming
-- Mob programming
-- XP values
-- Agile, SCRUM, Kanban
-
-
 ## Weekly notes & learning progress
 
 - [Week 1 notes](https://github.com/aniasobo/portfolio/blob/master/notes/week-1-notes.md) - [w1 to dos](https://github.com/aniasobo/portfolio/blob/master/goals/week-1-todos.md)

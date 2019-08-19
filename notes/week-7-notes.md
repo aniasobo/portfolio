@@ -95,7 +95,7 @@ $.ajax('file.json').done(function(){
 
 **keyword `then`**
 
-`then` is the method that denotes that the function is a promise; first argument is the success, second is the fail. Called on a new Promise() object. (does it have to be created each time??)
+`then` is the method that denotes that the function is a promise; first argument is the success, second is the fail. Called on a `new Promise()` object. (does it have to be created each time??)
 
 [Promises: states and fates](https://github.com/domenic/promises-unwrapping/blob/master/docs/states-and-fates.md):  
 
