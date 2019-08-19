@@ -57,7 +57,7 @@ end
 
 - private methods are not to be tested!
 - be careful to not expose instance vars by assigning them as attribute accessors instead of readers
-- dotenv gem: create .env files for your environment variables (as alternative to storing them in bash_profile), remember to add all .env files to .gitignore 
+- `dotenv` gem: create `.env` files for your environment variables (as alternative to storing them in `bash_profile`), remember to add all `.env` files to `.gitignore`
 - zsh? alt to Terminal
 - integration test vs feature test - the former is concerned primarily with testing the relationships between objects/classes, the latter tests those naturally in the course of testing the app
 
@@ -121,10 +121,10 @@ end
 
 #### process:
 
-1. added require shotgun to app.rb to make it run in localhost
+1. added `require shotgun` to `app.rb` to make it run in localhost
 2. changed struggle word across code 
 3. added another emoji to the happy emoji sample array
-4. model - view - controller pattern: app.rb is the controller; struggle_table_flipper.rb & random_happy_emoji.rb are the models; controller sends & receives messages from/to model; index & flipped_struggle are views; no interaction between model and view; what view returns will be displayed to the user by the controller
+4. model - view - controller pattern: `app.rb` is the controller; `struggle_table_flipper.rb` & `random_happy_emoji.rb` are the models; controller sends & receives messages from/to model; `index` & `flipped_struggle` are views; no interaction between model and view; what view returns will be displayed to the user by the controller
 
 ---
 
@@ -208,12 +208,12 @@ Net::HTTP.get(uri) # => String
 
 ## Metaprogramming 
 
-Problem: the @instancevar goes out of scope when response is sent.  
+Problem: the `@instancevar` goes out of scope when response is sent.  
 
 **Solution:**  
 
-- call methods on the class itself, as opposed to instance (like .new)
-- do this by prefixing the method name with self.
+- call methods on the class itself, as opposed to instance (like `.new`)
+- do this by prefixing the method name with `self`.
 
 ```
 class MyClass
@@ -225,7 +225,7 @@ class MyClass
 end
 ```  
 
-- @arg is NOT visible to any instance of MyClass; it's only accessible to other class methods (so other self.methods)
+- `@arg` is NOT visible to any instance of `MyClass`; it's only accessible to other class methods (so other `self.methods`)
 - to call the above method:
 
 ```
@@ -248,7 +248,7 @@ end
 @game = Game.instance
 ```
 
-- both create and instance have access to @game
+- both create and instance have access to `@game`
 - in the controller, run those like this:
 
 ```
@@ -272,7 +272,7 @@ before do
 end
 ```
 
-- this way @game is defined in every route, and in /playernames it gets overriden by @game = Game.create(player1, player2)
+- this way `@game` is defined in every route, and in `/playernames` it gets overriden by `@game = Game.create(player1, player2)`
 
 ---  
 
