@@ -29,12 +29,12 @@ Project repo | Notes | Pairing feedback
 [Airport App in JS](https://github.com/aniasobo/Airport-JS) | rewrite of the [Ruby app](https://github.com/aniasobo/airport_challenge) | pairing  
 [Thermostat](https://github.com/aniasobo/thermostat) | [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/thermostat.md) | pairing 
 [Bowling](https://github.com/aniasobo/bowling-challenge) | [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/bowling.md) | individual work
-[MakersBnB](https://github.com/carlfjones/MakersBnB) | team project | [progress note](https://github.com/aniasobo/portfolio/blob/master/challenges/makersbnb.md)
-[Acebook](https://github.com/bengscott2/acebook-livewire) | team engineering project | [project notes](https://github.com/aniasobo/portfolio/blob/master/challenges/acebook.md) 
-[Instagram clone](https://github.com/aniasobo/instagram-challenge) | individual work | [project notes](https://github.com/aniasobo/portfolio/blob/master/challenges/instagram.md)  
-[Acebook](https://github.com/bengscott2/acebook-livewire) | team engineering project | [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/acebook.md)  
+[MakersBnB](https://github.com/carlfjones/MakersBnB) | [progress note](https://github.com/aniasobo/portfolio/blob/master/challenges/makersbnb.md) | team project  
+[Acebook](https://github.com/bengscott2/acebook-livewire) | [project notes](https://github.com/aniasobo/portfolio/blob/master/challenges/acebook.md) | team engineering project  
+[Instagram clone](https://github.com/aniasobo/instagram-challenge) | [project notes](https://github.com/aniasobo/portfolio/blob/master/challenges/instagram.md) | individual work    
+[Acebook](https://github.com/bengscott2/acebook-livewire) | [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/acebook.md) | team engineering project   
 [Bank app](https://github.com/aniasobo/tech-test-bank) | individual work - tech test  
-[Forest](https://github.com/lucianmot/f.rest) | final project - team engineering project | [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/forest.md)  
+[Forest](https://github.com/lucianmot/f.rest) | [notes](https://github.com/aniasobo/portfolio/blob/master/challenges/forest.md) | final project - team engineering project  
 
 
 
