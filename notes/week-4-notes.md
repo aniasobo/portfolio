@@ -32,27 +32,27 @@ Kernel.rand(0..2)
 allow(Kernel).to receive(:rand)
 ```
 
-- Kernel: a Ruby module; all its methods can be used on any Ruby object (visible in irb with Kernel.methods) because all objects inherit from Kernel
+- `Kernel`: a Ruby module; all its methods can be used on any Ruby object (visible in `irb` with `Kernel.methods`) because all objects inherit from `Kernel`
 - separate logic from presentation - no strings in the controller and models, only in views; views can have logic that displays string depending on the outcome/value of var/sym (but avoid using instance variables/having excess logic)
 - class Weapon for handling moves - makes game extendable
 
 ```
 class Weapon
-	def initialize(name, beats)
-	end 
+ def initialize(name, beats)
+ end 
 end
 # relies on a constant with weapons living somewhere in the game
 ```
 
-- sessions: hash stored in browser; ok for user id, not ok for storing entire game logic
-- singleton pattern (alt to using sessions and global vars): uses class methods (self.)
+- `sessions`: a hash stored in browser; ok for user id, not ok for storing entire game logic
+- singleton pattern (alt to using sessions and global vars): uses class methods (`self.`)
 
 ```
 def self.create(player1, player2)
-@game?
-return @game
+ @game?
+ return @game
 else
-@game = Game.new(player1, player2)
+ @game = Game.new(player1, player2)
 end
 # checks if there's already a game running, sets instance to that currently running game
 ```
@@ -71,7 +71,7 @@ magic line:
 find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
 ```
 
-run the above in terminal, then add .DS_Store to .gitignore & commit
+run the above in terminal, then add `.DS_Store` to `.gitignore` & commit
 
 [alternative way to do this](http://www.codeblocq.com/2016/01/Untrack-files-already-added-to-git-repository-based-on-gitignore/)
 
@@ -90,7 +90,7 @@ using kill process functions (saved in bash_profile) and killing processes by PI
 
 ## ERB views
 
-<% %>s without the = get executed but not displayed in the view
+`<% %>` without the `=` get executed but not displayed in the view
 
 Displaying all bookmarks in the bookmarks array in index:
 

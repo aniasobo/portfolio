@@ -18,15 +18,15 @@
 
 ## Challenges
 
-- [x] Afternoons - Thermostat
-- [x] Weekend - Bowling
-- [x] Fizzbuzz JS rewrite - pairing
-- [x] Airport JS rewrite - pairing
+- [x] Afternoons - [Thermostat](https://github.com/aniasobo/thermostat)  
+- [x] Weekend - [Bowling](https://github.com/aniasobo/bowling-challenge)
+- [x] [Fizzbuzz JS rewrite](https://github.com/aniasobo/fizzbuzzjs) - pairing
+- [x] [Airport JS rewrite](https://github.com/aniasobo/Airport-JS) - pairing
 
 ## Practicals
 
-- [ ] Learning a new language by translation
-- [ ] JS Objects & Prototypes
+- [x] Learning a new language by translation
+- [x] JS Objects & Prototypes
 - [x] Closures
 - [x] Count app
 - [x] Javascripting 
@@ -44,13 +44,6 @@
 - [x] do 1-2 practicals
 - [ ] API - add to thermostat
 - [x] Ajax - research
-
-
-
-
-
-
-
 
 
 ---

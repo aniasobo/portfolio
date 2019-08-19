@@ -58,11 +58,11 @@ before_install:
 - to define methods:
 
 ```
-SomeShit.prototype.methname = function() {returns something};
+Something.prototype.methname = function() {returns stuff};
 ```
 
-- private method is denoted by _ before the ._name
-- this._count responds to Class but not to instance; define prototype method to send messages to instances
+- private method is denoted by `_` before the `._name`
+- `this._count` responds to Class but not to instance; define prototype method to send messages to instances
 
 
 ---
@@ -128,11 +128,11 @@ Dog.prototype.isPurebreed = function() {
 }
 ```
 
-- private methods are prefixed by underscore _myPrivateMethod
+- private methods are prefixed by underscore `_myPrivateMethod`
 - study the [AirBnB JS style guide](https://github.com/airbnb/javascript)
-- objects are used like hashes ion Ruby
+- objects are used like hashes in Ruby
 - dot notation - access stuff inside the object 
-- loop with an incremented/counter:
+- loop with an incrementer/counter:
 
 ```
 for (var i = 0; i < 10; i++) {  
@@ -221,9 +221,9 @@ function arrayRemove(arr, value) {
 
 - prototype is an internal property of all objects
 - prototype refers to other objects & contains common attributes and properties of its heirs
-- constructor functions can be called with the keyword 'new' to create instances
+- constructor functions can be called with the keyword `new` to create instances
 - [good examples here](https://medium.com/backticks-tildes/javascript-prototypes-ee46810e4866)
-- 'Object.create(thing)' is used to create an object that inherits from thing but is not a prototype (& thing is not a function but an object); it's better practice to use prototypical inheritance though, starting with a function with prototype functions used as method creators, then creating heirs with the keyword 'new'
+- `Object.create(thing)` is used to create an object that inherits from `thing` but is not a prototype (& `thing` is not a function but an object); it's better practice to use prototypical inheritance though, starting with a function with prototype functions used as method creators, then creating heirs with the keyword `new`
 
 #### Useful libraries of utility functions:
 
@@ -323,15 +323,15 @@ console.log(add5(2));  // 7
 console.log(add10(2)); // 12
 ```
 
-add5 and add10 are closures - they share the same function body definition but store different lexical environments.
+`add5` and `add10` are closures - they share the same function body definition but store different lexical environments.
 
-In add5's lexical environment x is 5; in add10's, it's 10.
+In `add5`s lexical environment `x` is `5`; in `add10`s, it's `10`.
 
 Closures let you associate some data (ie the lexical environment) with a function that makes an operation on it.
 
-Closure can be used analogously to OO-style Object with only a single method (the add5 object only adds integers to 5).
+Closure can be used analogously to OO-style Object with only a single method (the `add5` object only adds integers to 5).
 
-Closures are useful for event-based functions, such as this one that converts rem/em font sizes to pixel sizes:
+Closures are useful for event-based functions, such as this one that converts `rem/em` font sizes to pixel sizes:
 
 ```
 function makeSizer(size) {
