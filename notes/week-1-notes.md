@@ -16,8 +16,8 @@
 - [x] TDD
 
 ### Practice
-- [ ] Encapsulation and SRP practical
-- [ ] Debugging practical
+- [x] Encapsulation and SRP practical
+- [x] Debugging practical
 
 -------------
 # Raw notes below
@@ -27,10 +27,10 @@
 **Types of bug**
 
 - syntax error
-- gem not installed
+- gem/dependency not installed
 - method/no method error/name error (trying to call an undefined/uninitialised object)
 - incorrect logic when using/testing the program
-- name errors
+- name/type errors
 
 **Debug process**
 
