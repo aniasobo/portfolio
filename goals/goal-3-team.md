@@ -1,9 +1,9 @@
 # I help my teams succeed.
 
-### I use the agile product development process.
-### I write code that is easy to change.
-### I can justify the way I work.
-### I grow collaboratively.
+- [x] I use the agile product development process.
+- [x] I write code that is easy to change.
+- [x] I can justify the way I work.
+- [x] I grow collaboratively.
 
 ## Evidence
 

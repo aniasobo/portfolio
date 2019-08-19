@@ -13,8 +13,7 @@
 - [ ] finish the Git Branching tutorial
 - [ ] finish Wes Bos' JS course and move on to React
 - [ ] add an XP values dev pill
-- [ ] complete the Bank tech test notes!!
-- [ ] look into [Firestore db](https://firebase.google.com/docs/firestore) and other non-relational dbs
+- [x] look into [Firestore db](https://firebase.google.com/docs/firestore) and other non-relational dbs
 - [x] install Rust and Cargo
 - [ ] [Rustlings](https://github.com/rust-lang/rustlings/)
 
@@ -22,12 +21,11 @@
 
 ## JS things to look up:
 
-- [ ] query selectors - syntax?
+- [x] query selectors - syntax?
 - [ ] document vs documentElement
 - [ ] document.documentElement.style.setProperty(args??)
-- [ ] passing an event into a function - always use `e`? how does JS know it's an event?
 - [ ] targeting elements by event property (gaining visibility of event properties with console.log(e))
-- [ ] CSS - transitions with cubic-bezier
+- [x] CSS - transitions with cubic-bezier
 
 
 ### Wes Bos notes
@@ -46,15 +44,6 @@ function toggleActive(e) { // event passed into the function is the transition e
 panels.forEach(panel => panel.addEventListener('transitionend', toggleActive)); // only on this event run toggleActive()
 
 ```
-
-
-
-
-
-
-
-
-
 
 
 ---

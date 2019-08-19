@@ -1,11 +1,12 @@
 # I can make anything.
 
-### I can TDD anything.
-### I can program fluently.
-### I can debug anything.
-### I can model anything.
-### I can refactor anything.
-### I have a methodical approach to solving problems.
+- [x] I can TDD anything.
+- [x] I can program fluently.
+- [x] I can debug anything.
+- [x] I can Model anything.
+- [x] I can refactor anything.
+- [x] I can solve problems methodically.
+- [x] I have a methodical approach to solving problems.
 
 ## Evidence 
 
